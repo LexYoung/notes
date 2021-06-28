@@ -717,7 +717,7 @@ SOC=\frac {Lookup(OCV) * FCC - \frac {CC} {R_sense}UCC} {FCC - UUC}</script><p>å
   <entry>
     <title>Android_USB_Framework_Architecture</title>
     <url>/2021/03/20/Android_USB_Framework_Architecture/</url>
-    <content><![CDATA[<p>[TOC]</p>
+    <content><![CDATA[<!-- toc -->
 <p>&nbsp;</p>
 <hr>
 <p>&nbsp;</p>
@@ -1290,5 +1290,11 @@ SOC=\frac {Lookup(OCV) * FCC - \frac {CC} {R_sense}UCC} {FCC - UUC}</script><p>å
 <li>DP</li>
 </ul>
 ]]></content>
+      <categories>
+        <category>usb</category>
+      </categories>
+      <tags>
+        <tag>usb</tag>
+      </tags>
   </entry>
 </search>
