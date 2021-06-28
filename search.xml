@@ -1,17 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title></title>
-    <url>/2021/02/20/Android_Camera_Framework_Architecture/</url>
-    <content><![CDATA[<p>kernel/msm-4.14/drivers/media/platform/vivid/vivid-core.c<br>static int vivid_probe(struct platform_device *pdev)<br>    vivid_create_instance(pdev, i);<br>        v4l2_device_register(&amp;pdev-&gt;dev, &amp;dev-&gt;v4l2_dev);<br>        vivid_create_controls(dev, ccs_cap == -1, ccs_out == -1, no_error_inj,</p>
-<pre><code>    v4l2_ctrl_handler_setup(&amp;dev-&gt;ctrl_hdl_vid_cap);
-    ...
-
-    video_register_device(vfd, VFL_TYPE_GRABBER, vid_cap_nr[inst]);
-    video_register_device(vfd, VFL_TYPE_GRABBER, vid_out_nr[inst]);
-</code></pre>]]></content>
-  </entry>
-  <entry>
     <title>Qcom platform battery capacity algorithm</title>
     <url>/2020/09/24/Qcom-platform-battery-capacity-algorithm/</url>
     <content><![CDATA[<!-- toc -->
@@ -721,7 +710,7 @@ SOC=\frac {Lookup(OCV) * FCC - \frac {CC} {R_sense}UCC} {FCC - UUC}</script><p>�
 <p>&nbsp;</p>
 <hr>
 <p>&nbsp;</p>
-<h1 id="USB"><a href="#USB" class="headerlink" title="USB"></a>USB</h1><h2 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h2><p>USB是通用串行总线（Universal Serial Bus）的缩写，，目前USB协议版本如下</p>
+<h2 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h2><p>USB是通用串行总线（Universal Serial Bus）的缩写，，目前USB协议版本如下</p>
 <div class="table-container">
 <table>
 <thead>
