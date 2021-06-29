@@ -31,7 +31,7 @@
 <meta property="og:image" content="http://example.com/2021/03/20/Android-USB-Framework-Architecture/Type-C_pin.jpg">
 <meta property="og:image" content="http://example.com/2021/03/20/Android-USB-Framework-Architecture/Type-C_receptacle_plug.PNG">
 <meta property="og:image" content="http://example.com/2021/03/20/Android-USB-Framework-Architecture/USB_Descriptor.jpg">
-<meta property="og:image" content="http://example.com/2021/03/20/Android-USB-Framework-Architecture/Android_USB_Framework_Architecture_Host.jpg">
+<meta property="og:image" content="http://example.com/2021/03/20/Android-USB-Framework-Architecture/Android-USB-Framework-Architecture_Host.jpg">
 <meta property="og:image" content="http://example.com/2021/03/20/Android-USB-Framework-Architecture/USB_STRUCT.PNG">
 <meta property="og:image" content="http://example.com/2021/03/20/Android-USB-Framework-Architecture/USB_HUB_Timing_Diagram.JPG">
 <meta property="og:image" content="http://example.com/2021/03/20/Android-USB-Framework-Architecture/USB_FLOW.jpg">
@@ -40,7 +40,7 @@
 <meta property="og:image" content="http://example.com/2021/03/20/Android-USB-Framework-Architecture/USB_Gadget_Framework.jpg">
 <meta property="og:image" content="http://example.com/2021/03/20/Android-USB-Framework-Architecture/UDC_Framework.jpg">
 <meta property="article:published_time" content="2021-03-20T08:52:31.000Z">
-<meta property="article:modified_time" content="2021-06-28T12:24:42.061Z">
+<meta property="article:modified_time" content="2021-06-29T01:54:20.653Z">
 <meta property="article:author" content="LexYoung">
 <meta property="article:tag" content="usb">
 <meta name="twitter:card" content="summary">
@@ -232,7 +232,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2021-06-28 20:24:42" itemprop="dateModified" datetime="2021-06-28T20:24:42+08:00">2021-06-28</time>
+                <time title="Modified: 2021-06-29 09:54:20" itemprop="dateModified" datetime="2021-06-29T09:54:20+08:00">2021-06-29</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -491,7 +491,7 @@
 <hr>
 <p>&nbsp;</p>
 <h2 id="Android-USB-Driver"><a href="#Android-USB-Driver" class="headerlink" title="Android USB Driver"></a>Android USB Driver</h2><p>Android USB既可以做host，起控制作用，也可以作为slave，来应答host的控制。<br>Android USB设备，当连接PC时，自身作为Devcie设备，当连接U盘时，自身作为Host设备。<br>下面我们分别从 Host 和 Device 2个方面来分析 Android USB driver。</p>
-<h3 id="Android-USB-Host"><a href="#Android-USB-Host" class="headerlink" title="Android USB Host"></a>Android USB Host</h3><p>USB Host整体如下图左侧：<br><img src="/2021/03/20/Android-USB-Framework-Architecture/Android_USB_Framework_Architecture_Host.jpg" alt="Android_USB_Framework_Architecture"></p>
+<h3 id="Android-USB-Host"><a href="#Android-USB-Host" class="headerlink" title="Android USB Host"></a>Android USB Host</h3><p>USB Host整体如下图左侧：<br><img src="/2021/03/20/Android-USB-Framework-Architecture/Android-USB-Framework-Architecture_Host.jpg" alt="Android_USB_Framework_Architecture_Host"></p>
 <p>Android USB作为host时，软件架构分为如下3层：</p>
 <ul>
 <li>USB设备驱动：具体的USB外设设备驱动，针对不同的USB外设，需要加载不同的USB设备驱动，比如说U盘需要加载 mass storage usb设备驱动，鼠标需要加载 mouse usb设备驱动</li>
@@ -658,7 +658,7 @@
 <hr>
 <p>&nbsp;</p>
 <h3 id="USB-Device"><a href="#USB-Device" class="headerlink" title="USB Device"></a>USB Device</h3><h4 id="基本框架"><a href="#基本框架" class="headerlink" title="基本框架"></a>基本框架</h4><p>USB设备控制器（UDC）驱动指的是，当Android USB设备最为device时，插入其他USB主机控制器时，自身作为从设备而运行在底层硬件控制器的驱动。例如，当Android手机连接PC最为MTP功能时，Android 设备作为USB设备控制器的功能，这时运行在底层的是UDC驱动，在UDC驱动之上需要另外一个驱动，作为上层应用的接口，这个驱动为File Storage驱动，称为Function驱动。</p>
-<p>简略框图参见如下右侧：<br><img src="/2021/03/20/Android-USB-Framework-Architecture/Android_USB_Framework_Architecture_Device.jpg" alt="Android_USB_Framework_Architecture"></p>
+<p>简略框图参见如下右侧：<br><img src="/2021/03/20/Android-USB-Framework-Architecture/Android_USB_Framework_Architecture_Device.jpg" alt="Android_USB_Framework_Architecture_Device"></p>
 <p>Android USB作为device时，引入gadget概念。Android USB Gadget软件架构分为3层：(Composite Framework和USB Gadget Interface为Gadget设备层)</p>
 <ul>
 <li><p>USB 功能驱动层:  最主要的结构是struct usb_composite_driver，这个结构在这层定义，并且实现结构中的各个函数。</p>
@@ -860,10 +860,7 @@
     <a href="/2021/01/05/Thermal_Core_Framework_Architecture/" rel="prev" title="Thermal Core 框架">
       <i class="fa fa-chevron-left"></i> Thermal Core 框架
     </a></div>
-      <div class="post-nav-item">
-    <a href="/2021/03/20/Android_USB_Framework_Architecture/" rel="next" title="Android_USB_Framework_Architecture">
-      Android_USB_Framework_Architecture <i class="fa fa-chevron-right"></i>
-    </a></div>
+      <div class="post-nav-item"></div>
     </div>
       </footer>
     
@@ -936,7 +933,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">4</span>
+          <span class="site-state-item-count">3</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
