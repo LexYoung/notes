@@ -23,29 +23,30 @@
   <meta name="description" content="&amp;nbsp;  &amp;nbsp; 基本概念USB是通用串行总线（Universal Serial Bus）的缩写，，目前USB协议版本如下     USB Version BandWidth Power Note     USB1.0 1.5Mbps 5V&#x2F;500mA USB LOW SPEED   USB1.1 12Mbps 5V&#x2F;500mA USB FULL SPEED   USB2.0 480">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Android_USB_Framework_Architecture">
-<meta property="og:url" content="http://example.com/2021/03/20/Android_USB_Framework_Architecture/index.html">
+<meta property="og:url" content="http://example.com/2021/03/20/Android-USB-Framework-Architecture/index.html">
 <meta property="og:site_name" content="LexYoung笔记">
 <meta property="og:description" content="&amp;nbsp;  &amp;nbsp; 基本概念USB是通用串行总线（Universal Serial Bus）的缩写，，目前USB协议版本如下     USB Version BandWidth Power Note     USB1.0 1.5Mbps 5V&#x2F;500mA USB LOW SPEED   USB1.1 12Mbps 5V&#x2F;500mA USB FULL SPEED   USB2.0 480">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content="http://example.com/2021/03/20/Android_USB_Framework_Architecture/USB_Topology.PNG">
-<meta property="og:image" content="http://example.com/2021/03/20/Android_USB_Framework_Architecture/Type-C_pin.jpg">
-<meta property="og:image" content="http://example.com/2021/03/20/Android_USB_Framework_Architecture/Type-C_receptacle_plug.PNG">
-<meta property="og:image" content="http://example.com/2021/03/20/Android_USB_Framework_Architecture/USB_Descriptor.jpg">
-<meta property="og:image" content="http://example.com/2021/03/20/Android_USB_Framework_Architecture/Android_USB_Framework_Architecture_Host.jpg">
-<meta property="og:image" content="http://example.com/2021/03/20/Android_USB_Framework_Architecture/USB_STRUCT.PNG">
-<meta property="og:image" content="http://example.com/2021/03/20/Android_USB_Framework_Architecture/USB_HUB_Timing_Diagram.JPG">
-<meta property="og:image" content="http://example.com/2021/03/20/Android_USB_Framework_Architecture/USB_FLOW.jpg">
-<meta property="og:image" content="http://example.com/2021/03/20/Android_USB_Framework_Architecture/Android_USB_Framework_Architecture_Device.jpg">
-<meta property="og:image" content="http://example.com/2021/03/20/Android_USB_Framework_Architecture/UDC_STRUCT.bmp">
-<meta property="og:image" content="http://example.com/2021/03/20/Android_USB_Framework_Architecture/USB_Gadget_Framework.jpg">
-<meta property="og:image" content="http://example.com/2021/03/20/Android_USB_Framework_Architecture/UDC_Framework.jpg">
+<meta property="og:image" content="http://example.com/2021/03/20/Android-USB-Framework-Architecture/USB_Topology.PNG">
+<meta property="og:image" content="http://example.com/2021/03/20/Android-USB-Framework-Architecture/Type-C_pin.jpg">
+<meta property="og:image" content="http://example.com/2021/03/20/Android-USB-Framework-Architecture/Type-C_receptacle_plug.PNG">
+<meta property="og:image" content="http://example.com/2021/03/20/Android-USB-Framework-Architecture/USB_Descriptor.jpg">
+<meta property="og:image" content="http://example.com/2021/03/20/Android-USB-Framework-Architecture/Android_USB_Framework_Architecture_Host.jpg">
+<meta property="og:image" content="http://example.com/2021/03/20/Android-USB-Framework-Architecture/USB_STRUCT.PNG">
+<meta property="og:image" content="http://example.com/2021/03/20/Android-USB-Framework-Architecture/USB_HUB_Timing_Diagram.JPG">
+<meta property="og:image" content="http://example.com/2021/03/20/Android-USB-Framework-Architecture/USB_FLOW.jpg">
+<meta property="og:image" content="http://example.com/2021/03/20/Android-USB-Framework-Architecture/Android_USB_Framework_Architecture_Device.jpg">
+<meta property="og:image" content="http://example.com/2021/03/20/Android-USB-Framework-Architecture/UDC_STRUCT.bmp">
+<meta property="og:image" content="http://example.com/2021/03/20/Android-USB-Framework-Architecture/USB_Gadget_Framework.jpg">
+<meta property="og:image" content="http://example.com/2021/03/20/Android-USB-Framework-Architecture/UDC_Framework.jpg">
 <meta property="article:published_time" content="2021-03-20T08:52:31.000Z">
 <meta property="article:modified_time" content="2021-06-28T12:24:42.061Z">
 <meta property="article:author" content="LexYoung">
+<meta property="article:tag" content="usb">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http://example.com/2021/03/20/Android_USB_Framework_Architecture/USB_Topology.PNG">
+<meta name="twitter:image" content="http://example.com/2021/03/20/Android-USB-Framework-Architecture/USB_Topology.PNG">
 
-<link rel="canonical" href="http://example.com/2021/03/20/Android_USB_Framework_Architecture/">
+<link rel="canonical" href="http://example.com/2021/03/20/Android-USB-Framework-Architecture/">
 
 
 <script id="page-configurations">
@@ -201,7 +202,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/03/20/Android_USB_Framework_Architecture/">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2021/03/20/Android-USB-Framework-Architecture/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -233,6 +234,15 @@
                 <span class="post-meta-item-text">Edited on</span>
                 <time title="Modified: 2021-06-28 20:24:42" itemprop="dateModified" datetime="2021-06-28T20:24:42+08:00">2021-06-28</time>
               </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/usb/" itemprop="url" rel="index"><span itemprop="name">usb</span></a>
+                </span>
+            </span>
 
           
 
@@ -309,7 +319,7 @@
 <p>&nbsp;</p>
 <hr>
 <p>&nbsp;</p>
-<h3 id="拓扑结构"><a href="#拓扑结构" class="headerlink" title="拓扑结构"></a>拓扑结构</h3><p>USB的拓扑结构如下，可以看到主要由3种元素组成：主机、Hub和设备。<br><img src="/2021/03/20/Android_USB_Framework_Architecture/USB_Topology.PNG" alt="USB_Topology"></p>
+<h3 id="拓扑结构"><a href="#拓扑结构" class="headerlink" title="拓扑结构"></a>拓扑结构</h3><p>USB的拓扑结构如下，可以看到主要由3种元素组成：主机、Hub和设备。<br><img src="/2021/03/20/Android-USB-Framework-Architecture/USB_Topology.PNG" alt="USB_Topology"></p>
 <p>&nbsp;</p>
 <hr>
 <p>&nbsp;</p>
@@ -429,8 +439,8 @@
 </tbody>
 </table>
 </div>
-<p>TYPE-C：Type-C的所有引脚定义如下图所示：<br><img src="/2021/03/20/Android_USB_Framework_Architecture/Type-C_pin.jpg" alt="Type-C_pin"></p>
-<p>其中Type-C USB的插座和插头并不完全一样，相关定义如下图<br><img src="/2021/03/20/Android_USB_Framework_Architecture/Type-C_receptacle_plug.PNG" alt="Type-C_receptacle_plug"></p>
+<p>TYPE-C：Type-C的所有引脚定义如下图所示：<br><img src="/2021/03/20/Android-USB-Framework-Architecture/Type-C_pin.jpg" alt="Type-C_pin"></p>
+<p>其中Type-C USB的插座和插头并不完全一样，相关定义如下图<br><img src="/2021/03/20/Android-USB-Framework-Architecture/Type-C_receptacle_plug.PNG" alt="Type-C_receptacle_plug"></p>
 <p>&nbsp;</p>
 <hr>
 <p>&nbsp;</p>
@@ -452,7 +462,7 @@
 <li><p>HID描述符：即Human Interface Devices，人机接口设备。这类设备包括鼠标、键盘等，主要用于人与计算机进行交互，传输方式通常采用中断方式。</p>
 </li>
 </ol>
-<p>如下为某设备的基础描述符关系图：<br><img src="/2021/03/20/Android_USB_Framework_Architecture/USB_Descriptor.jpg" alt="USB_Descriptor"></p>
+<p>如下为某设备的基础描述符关系图：<br><img src="/2021/03/20/Android-USB-Framework-Architecture/USB_Descriptor.jpg" alt="USB_Descriptor"></p>
 <ul>
 <li>该设备有2个配置：配置0和配置1</li>
 <li>配置0下面有1个接口：接口0，该接口下有3个端点</li>
@@ -481,7 +491,7 @@
 <hr>
 <p>&nbsp;</p>
 <h2 id="Android-USB-Driver"><a href="#Android-USB-Driver" class="headerlink" title="Android USB Driver"></a>Android USB Driver</h2><p>Android USB既可以做host，起控制作用，也可以作为slave，来应答host的控制。<br>Android USB设备，当连接PC时，自身作为Devcie设备，当连接U盘时，自身作为Host设备。<br>下面我们分别从 Host 和 Device 2个方面来分析 Android USB driver。</p>
-<h3 id="Android-USB-Host"><a href="#Android-USB-Host" class="headerlink" title="Android USB Host"></a>Android USB Host</h3><p>USB Host整体如下图左侧：<br><img src="/2021/03/20/Android_USB_Framework_Architecture/Android_USB_Framework_Architecture_Host.jpg" alt="Android_USB_Framework_Architecture"></p>
+<h3 id="Android-USB-Host"><a href="#Android-USB-Host" class="headerlink" title="Android USB Host"></a>Android USB Host</h3><p>USB Host整体如下图左侧：<br><img src="/2021/03/20/Android-USB-Framework-Architecture/Android_USB_Framework_Architecture_Host.jpg" alt="Android_USB_Framework_Architecture"></p>
 <p>Android USB作为host时，软件架构分为如下3层：</p>
 <ul>
 <li>USB设备驱动：具体的USB外设设备驱动，针对不同的USB外设，需要加载不同的USB设备驱动，比如说U盘需要加载 mass storage usb设备驱动，鼠标需要加载 mouse usb设备驱动</li>
@@ -544,7 +554,7 @@
 <li>usb_endpoint_descriptor来描述一个interface的endpoint信息</li>
 </ul>
 <p>它们的关系如图所示：</p>
-<p><img src="/2021/03/20/Android_USB_Framework_Architecture/USB_STRUCT.PNG" alt="usb struct"></p>
+<p><img src="/2021/03/20/Android-USB-Framework-Architecture/USB_STRUCT.PNG" alt="usb struct"></p>
 <p>&nbsp;</p>
 <hr>
 <p>&nbsp;</p>
@@ -577,7 +587,7 @@
 </ol>
 <figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">static</span> <span class="keyword">int</span> <span class="title">xhci_plat_probe</span><span class="params">(struct platform_device *pdev)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">const</span> <span class="class"><span class="keyword">struct</span> <span class="title">hc_driver</span>	*<span class="title">driver</span>;</span></span><br><span class="line">	<span class="class"><span class="keyword">struct</span> <span class="title">xhci_hcd</span>		*<span class="title">xhci</span>;</span></span><br><span class="line">	<span class="class"><span class="keyword">struct</span> <span class="title">usb_hcd</span>		*<span class="title">hcd</span>;</span></span><br><span class="line"></span><br><span class="line">	driver = &amp;xhci_plat_hc_driver;</span><br><span class="line"></span><br><span class="line">	irq = platform_get_irq(pdev, <span class="number">0</span>);</span><br><span class="line">	</span><br><span class="line">	hcd = __usb_create_hcd(driver, sysdev, &amp;pdev-&gt;dev,</span><br><span class="line">			       dev_name(&amp;pdev-&gt;dev), <span class="literal">NULL</span>);</span><br><span class="line"></span><br><span class="line">	...</span><br><span class="line"></span><br><span class="line">	<span class="comment">/* convert between an HCD pointer and the corresponding EHCI_HCD */</span></span><br><span class="line">	hcd_to_xhci(hcd);</span><br><span class="line">	</span><br><span class="line">	<span class="comment">/* 获取并调用相关phy的初始化函数 */</span></span><br><span class="line">	hcd-&gt;usb_phy = devm_usb_get_phy_by_phandle(phydev, <span class="string">&quot;usb-phy&quot;</span>, <span class="number">0</span>);</span><br><span class="line">	usb_phy_init(hcd-&gt;usb_phy);</span><br><span class="line"></span><br><span class="line">	<span class="comment">/* 对HCD进行初始化和注册 */</span></span><br><span class="line">	usb_add_hcd(hcd, irq, IRQF_SHARED);</span><br><span class="line">		<span class="comment">/* 注册 a root hub */</span></span><br><span class="line">	---&gt; register_root_hub(hcd)</span><br><span class="line">			<span class="comment">/* 执行usb core 内部的初始化设置，构建新usb devices */</span></span><br><span class="line">		---&gt; usb_new_device (usb_dev)</span><br><span class="line">			---&gt; usb_enumerate_device(udev)</span><br><span class="line">				<span class="comment">/* </span></span><br><span class="line"><span class="comment">				 * 在hub.c中有注册 &quot;hub&quot; driver:usb_register(&amp;hub_driver)</span></span><br><span class="line"><span class="comment">				 * 2者匹配导致 hub_probe 被调用 </span></span><br><span class="line"><span class="comment">				 */</span></span><br><span class="line">			---&gt; device_add(&amp;udev-&gt;dev);</span><br><span class="line"></span><br><span class="line">	<span class="comment">/* 创建device attr file */</span></span><br><span class="line">	device_create_file(&amp;pdev-&gt;dev, &amp;dev_attr_config_imod);</span><br><span class="line"></span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <p>总结：这里核心函数为 usb_add_hcd，主要是对HCD进行初始化和注册，最终会把 “hub” 通过device_add添加到设备队列中。而另外在 usb/core/hub.c 中，有通过usb_register(&amp;hub_driver)来注册 “hub” 驱动，从而导致 hub_probe 被调用。</p>
-<p>这里简单时序图如下:<br><img src="/2021/03/20/Android_USB_Framework_Architecture/USB_HUB_Timing_Diagram.JPG" alt="USB root  hub flow"></p>
+<p>这里简单时序图如下:<br><img src="/2021/03/20/Android-USB-Framework-Architecture/USB_HUB_Timing_Diagram.JPG" alt="USB root  hub flow"></p>
 <p>&nbsp;</p>
 <hr>
 <p>&nbsp;</p>
@@ -643,12 +653,12 @@
 <p>&nbsp;</p>
 <hr>
 <p>&nbsp;</p>
-<p>以上就是USB HOST的基础流程，大体框图如下：<br><img src="/2021/03/20/Android_USB_Framework_Architecture/USB_FLOW.jpg" alt="USB_FLOW"></p>
+<p>以上就是USB HOST的基础流程，大体框图如下：<br><img src="/2021/03/20/Android-USB-Framework-Architecture/USB_FLOW.jpg" alt="USB_FLOW"></p>
 <p>&nbsp;</p>
 <hr>
 <p>&nbsp;</p>
 <h3 id="USB-Device"><a href="#USB-Device" class="headerlink" title="USB Device"></a>USB Device</h3><h4 id="基本框架"><a href="#基本框架" class="headerlink" title="基本框架"></a>基本框架</h4><p>USB设备控制器（UDC）驱动指的是，当Android USB设备最为device时，插入其他USB主机控制器时，自身作为从设备而运行在底层硬件控制器的驱动。例如，当Android手机连接PC最为MTP功能时，Android 设备作为USB设备控制器的功能，这时运行在底层的是UDC驱动，在UDC驱动之上需要另外一个驱动，作为上层应用的接口，这个驱动为File Storage驱动，称为Function驱动。</p>
-<p>简略框图参见如下右侧：<br><img src="/2021/03/20/Android_USB_Framework_Architecture/Android_USB_Framework_Architecture_Device.jpg" alt="Android_USB_Framework_Architecture"></p>
+<p>简略框图参见如下右侧：<br><img src="/2021/03/20/Android-USB-Framework-Architecture/Android_USB_Framework_Architecture_Device.jpg" alt="Android_USB_Framework_Architecture"></p>
 <p>Android USB作为device时，引入gadget概念。Android USB Gadget软件架构分为3层：(Composite Framework和USB Gadget Interface为Gadget设备层)</p>
 <ul>
 <li><p>USB 功能驱动层:  最主要的结构是struct usb_composite_driver，这个结构在这层定义，并且实现结构中的各个函数。</p>
@@ -713,7 +723,7 @@
 </ul>
 </li>
 </ol>
-<p>核心结构体对应的关系如下：<br><img src="/2021/03/20/Android_USB_Framework_Architecture/UDC_STRUCT.bmp" alt="usb device controller struct"></p>
+<p>核心结构体对应的关系如下：<br><img src="/2021/03/20/Android-USB-Framework-Architecture/UDC_STRUCT.bmp" alt="usb device controller struct"></p>
 <h4 id="USB-功能驱动层-amp-Gaget-设备层"><a href="#USB-功能驱动层-amp-Gaget-设备层" class="headerlink" title="USB 功能驱动层 &amp; Gaget 设备层"></a>USB 功能驱动层 &amp; Gaget 设备层</h4><ul>
 <li><p>function 入口函数</p>
 <figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/** msm-4.19/drivers/usb/gadget/function/f_mass_storage.c **/</span></span><br><span class="line"></span><br><span class="line">DECLARE_USB_FUNCTION_INIT(mass_storage, fsg_alloc_inst, fsg_alloc);</span><br><span class="line">宏定义为：</span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> DECLARE_USB_FUNCTION_INIT(_name, _inst_alloc, _func_alloc)</span></span><br></pre></td></tr></table></figure>
@@ -767,7 +777,7 @@
 <p>&nbsp;</p>
 <hr>
 <p>&nbsp;</p>
-<p>总结：<br>USB 功能驱动层 &amp; Gaget 设备层的关系比较紧密，存在很多回调函数，下图只是列出了简单的调用关系图:<br><img src="/2021/03/20/Android_USB_Framework_Architecture/USB_Gadget_Framework.jpg" alt="USB Gadget Framework"></p>
+<p>总结：<br>USB 功能驱动层 &amp; Gaget 设备层的关系比较紧密，存在很多回调函数，下图只是列出了简单的调用关系图:<br><img src="/2021/03/20/Android-USB-Framework-Architecture/USB_Gadget_Framework.jpg" alt="USB Gadget Framework"></p>
 <p>另外从上面的代码流程可以看出，mass storage一共经历了4次 bind 函数，最终实现mass storage功能。</p>
 <ul>
 <li><p>struct usb_gadget_driver composite_driver_template 对应的 composite_bind，所有 gadget 驱动都走这个公共函数。</p>
@@ -786,7 +796,7 @@
 <figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * dwc3_gadget_init - Initializes gadget related registers</span></span><br><span class="line"><span class="comment"> * @dwc: pointer to our controller context structure</span></span><br><span class="line"><span class="comment"> *</span></span><br><span class="line"><span class="comment"> * Returns 0 on success otherwise negative errno.</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">dwc3_gadget_init</span><span class="params">(struct dwc3 *dwc)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	dwc-&gt;gadget.ops			= &amp;dwc3_gadget_ops;</span><br><span class="line">	dwc-&gt;gadget.max_speed		= USB_SPEED_SUPER;</span><br><span class="line">	dwc-&gt;gadget.speed		= USB_SPEED_UNKNOWN;</span><br><span class="line">	dwc-&gt;gadget.name		= <span class="string">&quot;dwc3-gadget&quot;</span>;</span><br><span class="line"></span><br><span class="line">	<span class="comment">/* 初始化 OUT 和 IN 端点 */</span></span><br><span class="line">	dwc3_gadget_init_endpoints(dwc);</span><br><span class="line">	---&gt; dwc3_gadget_init_hw_endpoints(dwc, dwc-&gt;num_out_eps, <span class="number">0</span>);</span><br><span class="line">	---&gt; dwc3_gadget_init_hw_endpoints(dwc, dwc-&gt;num_in_eps, <span class="number">1</span>);</span><br><span class="line"></span><br><span class="line">	<span class="comment">/* 在udc class driver list 中增加新的 gadget:&quot;dwc3-gadget&quot; */</span></span><br><span class="line">	usb_add_gadget_udc((struct device *)dwc-&gt;dev, &amp;dwc-&gt;gadget);</span><br><span class="line">	---&gt; usb_add_gadget_udc_release(parent, gadget, <span class="literal">NULL</span>);</span><br><span class="line">	</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <p>接着分析 usb_add_gadget_udc_release 函数<br><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * usb_add_gadget_udc_release - adds a new gadget to the udc class driver list</span></span><br><span class="line"><span class="comment"> * @parent: the parent device to this udc. Usually the controller driver&#x27;s</span></span><br><span class="line"><span class="comment"> * device.</span></span><br><span class="line"><span class="comment"> * @gadget: the gadget to be added to the list.</span></span><br><span class="line"><span class="comment"> * @release: a gadget release function.</span></span><br><span class="line"><span class="comment"> *</span></span><br><span class="line"><span class="comment"> * Returns zero on success, negative errno otherwise.</span></span><br><span class="line"><span class="comment"> * Calls the gadget release function in the latter case.</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">usb_add_gadget_udc_release</span><span class="params">(struct device *parent, struct usb_gadget *gadget,</span></span></span><br><span class="line"><span class="function"><span class="params">		<span class="keyword">void</span> (*release)(struct device *dev))</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="class"><span class="keyword">struct</span> <span class="title">usb_udc</span>		*<span class="title">udc</span>;</span></span><br><span class="line"></span><br><span class="line">	dev_set_name(&amp;gadget-&gt;dev, <span class="string">&quot;gadget&quot;</span>);</span><br><span class="line">	INIT_WORK(&amp;gadget-&gt;work, usb_gadget_state_work);</span><br><span class="line"></span><br><span class="line">	<span class="comment">/* 初始化 gadget-&gt;dev 和 udc-&gt;dev 结构体 */</span></span><br><span class="line">	device_initialize(&amp;gadget-&gt;dev);</span><br><span class="line">	device_initialize(&amp;udc-&gt;dev);</span><br><span class="line">	</span><br><span class="line">	udc-&gt;dev.release = usb_udc_release;</span><br><span class="line">	udc-&gt;dev.class = udc_class;</span><br><span class="line">	udc-&gt;dev.groups = usb_udc_attr_groups;</span><br><span class="line">	udc-&gt;dev.parent = parent;</span><br><span class="line">	ret = dev_set_name(&amp;udc-&gt;dev, <span class="string">&quot;%s&quot;</span>, kobject_name(&amp;parent-&gt;kobj));</span><br><span class="line">	</span><br><span class="line">	<span class="comment">/* 把 gadget-&gt;dev 添加到gadget设备中 */</span></span><br><span class="line">	ret = device_add(&amp;gadget-&gt;dev);</span><br><span class="line">	</span><br><span class="line">	<span class="comment">/* udc 和 gadget 相互建立连接 */</span></span><br><span class="line">	udc-&gt;gadget = gadget;</span><br><span class="line">	gadget-&gt;udc = udc;</span><br><span class="line">	</span><br><span class="line">    <span class="comment">/* 把udc，即dwc3 usb device controller 添加到 udc_list 中 */</span></span><br><span class="line">    list_add_tail(&amp;udc-&gt;<span class="built_in">list</span>, &amp;udc_list);</span><br><span class="line">    </span><br><span class="line">	<span class="comment">/* 把 udev-&gt;dev 添加到udc设备中 */</span></span><br><span class="line">	device_add(&amp;udc-&gt;dev);</span><br><span class="line">	</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">	<span class="comment">/* pick up one of pending gadget drivers */</span></span><br><span class="line">	check_pending_gadget_drivers(udc);</span><br><span class="line">	---&gt; 遍历 gadget_driver_pending_list ，根据 name 来给 udc 绑定对应的 driver</span><br><span class="line">	---&gt; udc_bind_to_driver(udc, driver);</span><br><span class="line"></span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure><br>这里和从Gadget Driver层往下分析时调用 udc_bind_to_driver 绑定 usb_gadget_driver（即msg_driver-&gt;gadget_driver） 与对应的 usb_udc（即dw3 usb device controller） 时一致，最终把UDC和对应的驱动绑定，从而使上层gadget driver可以使用。</p>
 <p>大致框图如下：</p>
-<p><img src="/2021/03/20/Android_USB_Framework_Architecture/UDC_Framework.jpg" alt="UDC Framework Architecture"></p>
+<p><img src="/2021/03/20/Android-USB-Framework-Architecture/UDC_Framework.jpg" alt="UDC Framework Architecture"></p>
 <h4 id="Configfs"><a href="#Configfs" class="headerlink" title="Configfs"></a>Configfs</h4><p>详情介绍可以参考 kernel 官方文档，这里只是简单介绍一下。</p>
 <ul>
 <li>Documentation/filesystems/configfs/configfs.txt</li>
@@ -825,6 +835,21 @@
     
 
       <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/usb/" rel="tag"># usb</a>
+          </div>
+          <script type="text/javascript">
+            var tagsall=document.getElementsByClassName("post-tags")
+            for (var i = tagsall.length - 1; i >= 0; i--){
+                var tags=tagsall[i].getElementsByTagName("a");
+                for (var j = tags.length - 1; j >= 0; j--) {
+                    var r=Math.floor(Math.random()*75+130);
+                    var g=Math.floor(Math.random()*75+100);
+                    var b=Math.floor(Math.random()*75+80);
+                    tags[j].style.background = "rgb("+r+","+g+","+b+")";
+                }
+            }                        
+            </script>
 
         
 
@@ -832,10 +857,13 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2021/03/20/Android-USB-Framework-Architecture/" rel="prev" title="Android_USB_Framework_Architecture">
-      <i class="fa fa-chevron-left"></i> Android_USB_Framework_Architecture
+    <a href="/2021/01/05/Thermal_Core_Framework_Architecture/" rel="prev" title="Thermal Core 框架">
+      <i class="fa fa-chevron-left"></i> Thermal Core 框架
     </a></div>
-      <div class="post-nav-item"></div>
+      <div class="post-nav-item">
+    <a href="/2021/03/20/Android_USB_Framework_Architecture/" rel="next" title="Android_USB_Framework_Architecture">
+      Android_USB_Framework_Architecture <i class="fa fa-chevron-right"></i>
+    </a></div>
     </div>
       </footer>
     
