@@ -20,28 +20,49 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Mist","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta property="og:type" content="website">
+  <meta name="description" content="html {overflow-x: initial !important;}:root { --bg-color:#ffffff; --text-color:#333333; --select-text-bg-color:#B5D6FC; --select-text-font-color:auto; --monospace:&quot;Lucida Console&quot;,Consolas,&quot;Couri">
+<meta property="og:type" content="article">
 <meta property="og:title" content="LexYoung笔记">
-<meta property="og:url" content="http://example.com/index.html">
+<meta property="og:url" content="http://example.com/2021/07/24/Yocto-Build-System-Introduction/index.html">
 <meta property="og:site_name" content="LexYoung笔记">
+<meta property="og:description" content="html {overflow-x: initial !important;}:root { --bg-color:#ffffff; --text-color:#333333; --select-text-bg-color:#B5D6FC; --select-text-font-color:auto; --monospace:&quot;Lucida Console&quot;,Consolas,&quot;Couri">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="http://example.com/2021/07/24/Yocto-Build-System-Introduction/Yocto_Poky_OpenEmbedded_Relationship.JPG">
+<meta property="og:image" content="http://example.com/2021/07/24/Yocto-Build-System-Introduction/Yocto.JPG">
+<meta property="og:image" content="http://example.com/2021/07/24/Yocto-Build-System-Introduction/yocto_workflow.JPG">
+<meta property="og:image" content="http://example.com/2021/07/24/Yocto-Build-System-Introduction/Yocto_User_Configuration.JPG">
+<meta property="og:image" content="http://example.com/2021/07/24/Yocto-Build-System-Introduction/Yocto_Metadata.JPG">
+<meta property="og:image" content="http://example.com/2021/07/24/Yocto-Build-System-Introduction/Yocto_Sources.JPG">
+<meta property="og:image" content="http://example.com/2021/07/24/Yocto-Build-System-Introduction/Yocto_Package_Feeds.JPG">
+<meta property="og:image" content="http://example.com/2021/07/24/Yocto-Build-System-Introduction/yocto_bitbake_tool.JPG">
+<meta property="og:image" content="http://example.com/2021/07/24/Yocto-Build-System-Introduction/Yocto_Source_Fetching.JPG">
+<meta property="og:image" content="http://example.com/2021/07/24/Yocto-Build-System-Introduction/Yocto_Patching.JPG">
+<meta property="og:image" content="http://example.com/2021/07/24/Yocto-Build-System-Introduction/Yocto_Configuration_Compilation_and_Staging.JPG">
+<meta property="og:image" content="http://example.com/2021/07/24/Yocto-Build-System-Introduction/Yocto_Package_Splitting.JPG">
+<meta property="og:image" content="http://example.com/2021/07/24/Yocto-Build-System-Introduction/Yocto_Image_Generation.JPG">
+<meta property="og:image" content="http://example.com/2021/07/24/Yocto-Build-System-Introduction/Yocto_SDK_Generation.JPG">
+<meta property="og:image" content="http://example.com/2021/07/24/Yocto-Build-System-Introduction/Yocto_Images.JPG">
+<meta property="og:image" content="http://example.com/2021/07/24/Yocto-Build-System-Introduction/Yocto_Simple_Workflow.png">
+<meta property="article:published_time" content="2021-07-24T08:59:58.807Z">
+<meta property="article:modified_time" content="2021-08-03T07:19:35.075Z">
 <meta property="article:author" content="LexYoung">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/2021/07/24/Yocto-Build-System-Introduction/Yocto_Poky_OpenEmbedded_Relationship.JPG">
 
-<link rel="canonical" href="http://example.com/">
+<link rel="canonical" href="http://example.com/2021/07/24/Yocto-Build-System-Introduction/">
 
 
 <script id="page-configurations">
   // https://hexo.io/docs/variables.html
   CONFIG.page = {
     sidebar: "",
-    isHome : true,
-    isPost : false,
+    isHome : false,
+    isPost : true,
     lang   : 'en'
   };
 </script>
 
-  <title>LexYoung笔记</title>
+  <title> | LexYoung笔记</title>
   
 
 
@@ -177,118 +198,10 @@
         <div class="content-wrap">
           
 
-          <div class="content index posts-expand">
+          <div class="content post posts-expand">
             
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/08/24/USB-Type-C-Specification-Release/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="LexYoung">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="LexYoung笔记">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/08/24/USB-Type-C-Specification-Release/" class="post-title-link" itemprop="url">USB-Type-C-Specification-Release</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-
-              <time title="Created: 2021-08-24 17:47:27" itemprop="dateCreated datePublished" datetime="2021-08-24T17:47:27+08:00">2021-08-24</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2021-08-25 18:01:46" itemprop="dateModified" datetime="2021-08-25T18:01:46+08:00">2021-08-25</time>
-              </span>
-
-          
-
-        </div>
-      </header>
 
     
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>USB Type-C List of Signals</p>
-<div class="table-container">
-<table>
-<thead>
-<tr>
-<th>Signal Group</th>
-<th>Signal</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>USB 3.1</td>
-<td>SSTXp1,SSTXn1<br>SSRXp1,SSRXn1<br>SSTXp2,SSTXn2<br>SSRXp2,SSRXn2</td>
-<td>SuperSpeed USB serial data interface defines 1 differential transmit pair and 1 differential receive pair. On a USB Type-C receptacle, two sets of SuperSpeed USB signal pins are defined to enable plug flipping feature</td>
-</tr>
-<tr>
-<td>USB 2.0</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Configuration</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Auxilliary signals</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Power</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-</div>
-<p>The typical flow for the configuration of the interface in the general USB case of a DFP to a<br>UFP is as follows:</p>
-<ol>
-<li>Detect a valid connection between the ports (including determining cable<br>orientation and DFP/UFP relationship)</li>
-<li>Optionally discover the cable’s capabilitiesRelease</li>
-<li>Optionally establish alternatives to traditional USB power (See Section 4.6.2)<br> a. USB PD communication over CC for advanced power delivery negotiation<br> b. USB Type-C Current modes<br> c. USB BC 1.2</li>
-<li>USB Device Enumeration</li>
-</ol>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
@@ -304,10 +217,9 @@
       <meta itemprop="name" content="LexYoung笔记">
     </span>
       <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
+        <h1 class="post-title" itemprop="name headline">
           
-            <a href="/2021/07/24/Yocto-Build-System-Introduction/" class="post-title-link" itemprop="url">Untitled</a>
-        </h2>
+        </h1>
 
         <div class="post-meta">
             <span class="post-meta-item">
@@ -337,7 +249,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <!doctype html>
+        <!doctype html>
 <html>
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width initial-scale=1">
@@ -1879,989 +1791,33 @@ footer.ty-footer {
 <span>addtask 命令还可以选择描述任务和其他任务之间的依赖关系。下面是一个例子，显示了如何定义一个任务并声明一些依赖关系。</span></p><pre class="md-fences md-end-block ty-contain-cm modeLoaded" spellcheck="false" lang="c"><div class="CodeMirror cm-s-inner CodeMirror-wrap" lang="c"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 11px; left: 4px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre><span>xxxxxxxxxx</span></pre></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-code" role="presentation"><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">python</span> <span class="cm-def">do_printdate</span> () {</span></pre></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> <span class="cm-variable">print</span> <span class="cm-variable">time</span>.<span class="cm-variable">strftime</span>(<span class="cm-string">'%Y%m%d'</span>, <span class="cm-variable">time</span>.<span class="cm-variable">gmtime</span>())</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">}</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">addtask</span> <span class="cm-variable">printdate</span> <span class="cm-variable">after</span> <span class="cm-variable">do_fetch</span> <span class="cm-variable">before</span> <span class="cm-variable">do_build</span></span></pre></div></div></div></div></div><div style="position: absolute; height: 0px; width: 1px; border-bottom: 0px solid transparent; top: 104px;"></div><div class="CodeMirror-gutters" style="display: none; height: 104px;"></div></div></div></pre><p><span>addtask的第一个参数是要提升为任务的函数的名称。如果名称不是以 &quot;do</span><em><span>&quot;开头，&quot;do</span></em><span>&quot;就会被隐含地添加进去，这样就执行了所有任务名称以 &quot;do_&quot;开头的惯例。</span></p><p><span>do_printdate 任务在do_build之前运行，在do_fetch之后运行。</span></p><h2 id="6-强制执行task"><span>6. 强制执行Task</span></h2><p><span>当用bitbake recipe -c task命令手动选择一个要运行的任务时,你可能会发现该任务（示例：do_printdate）只在你第一次用bitbake命令构建配方时才会运行。这是因为BitBake认为该任务在首次运行后是 &quot;最新的&quot;。如果你想强制该任务总是被重新运行以进行实验，你可以通过使用[nostamp]变量标志使BitBake总是认为该任务是 &quot;过时的&quot;，如下所示。</span></p><pre class="md-fences md-end-block ty-contain-cm modeLoaded" spellcheck="false" lang="c"><div class="CodeMirror cm-s-inner CodeMirror-wrap" lang="c"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 11px; left: 4px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre><span>xxxxxxxxxx</span></pre></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-code" role="presentation"><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">do_printdate</span>[<span class="cm-variable">nostamp</span>] <span class="cm-operator">=</span> <span class="cm-string">"1"</span></span></pre></div></div></div></div></div></div><div style="position: absolute; height: 0px; width: 1px; border-bottom: 0px solid transparent; top: 26px;"></div><div class="CodeMirror-gutters" style="display: none; height: 26px;"></div></div></div></pre><p><span>或者你也可以明确地运行任务并提供-f选项，如下所示。</span></p><pre class="md-fences md-end-block ty-contain-cm modeLoaded" spellcheck="false" lang="c"><div class="CodeMirror cm-s-inner CodeMirror-wrap" lang="c"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 11px; left: 4px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre><span>xxxxxxxxxx</span></pre></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-code" role="presentation"><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">bitbake</span> <span class="cm-variable">recipe</span> <span class="cm-operator">-</span><span class="cm-variable">c</span> <span class="cm-variable">printdate</span> <span class="cm-operator">-</span><span class="cm-variable">f</span></span></pre></div></div></div></div></div></div><div style="position: absolute; height: 0px; width: 1px; border-bottom: 0px solid transparent; top: 26px;"></div><div class="CodeMirror-gutters" style="display: none; height: 26px;"></div></div></div></pre><p><span>注：本文档大部分内容为翻译参考资料中的官方英文文档</span></p><h2 id="7-官方-qa-error-and-waring-messages"><span>7. 官方 QA Error and Waring Messages</span></h2><p><span>详情参考：</span><a target="_blank" rel="noopener" href="https://www.yoctoproject.org/docs/2.5/ref-manual/ref-manual.html#ref-qa-checks"><span>Yocto Project Reference Manual</span></a></p><p>&nbsp;</p><p><span>参考资料：</span></p><ul><li><a target="_blank" rel="noopener" href="http://docs.yoctoproject.org/"><span>Welcome to the Yocto Project Documentation — The Yocto Project ® dev documentation</span></a></li><li><a target="_blank" rel="noopener" href="https://wiki.yoctoproject.org/wiki/Main_Page"><span>Yocto Project</span></a></li></ul><p>&nbsp;</p></div></div>
 </body>
 </html>
-      
     </div>
 
     
     
     
+
       <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
 
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/06/30/Yocto-Build-System-Introduction/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="LexYoung">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="LexYoung笔记">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/06/30/Yocto-Build-System-Introduction/" class="post-title-link" itemprop="url">Yocto_Build_System_Introduction</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-
-              <time title="Created: 2021-06-30 19:20:12" itemprop="dateCreated datePublished" datetime="2021-06-30T19:20:12+08:00">2021-06-30</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2021-10-09 19:58:30" itemprop="dateModified" datetime="2021-10-09T19:58:30+08:00">2021-10-09</time>
-              </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h1 id="1-初识yocto"><a href="#1-初识yocto" class="headerlink" title="1 初识yocto"></a>1 初识yocto</h1><p>Yocto项目是一个开源合作项目，它帮助开发者创建基于Linux的定制系统，这些系统是为嵌入式产品设计的，与产品的硬件架构无关。Yocto项目提供了一个灵活的工具集和开发环境，全球的嵌入式开发人员可以共享技术，软件堆栈，配置和最佳实践，可用于为嵌入式设备创建定制的Linux镜像。</p>
-<h2 id="1-1-基本名词"><a href="#1-1-基本名词" class="headerlink" title="1.1 基本名词"></a>1.1 基本名词</h2><p>首先介绍几个概念，</p>
-<ul>
-<li>Yocto：开源协作项目，该项目主要是为了帮助开发人员为嵌入式产品创建基于 Linux的定制系统。主要提供一套灵活的工具和空间。</li>
-<li>Poky：有2个含义<ul>
-<li>用来构建 Linux 的构建系统，包含了 BitBake工具、编译工具链、BSP、诸多程序包或层，可以认为Poky即是Yocto的本质</li>
-<li>使用Poky系统构建编译出来的参考 Linux 发行版本也叫Poky.</li>
-</ul>
-</li>
-<li>openembedded：Yocto的协同开源项目，主要提供 Linux 交叉编译环境，是Yocto项目推荐的编译系统。主要为Yocto项目提供 BitBake 和OpenEmbedded-Core。</li>
-</ul>
-<p>它们之间的关系框图如下：<br><img src="/2021/06/30/Yocto-Build-System-Introduction/Yocto_Poky_OpenEmbedded_Relationship.JPG" alt="Yocto_Poky_OpenEmbedded_Relationship"></p>
-<h2 id="1-2-特性"><a href="#1-2-特性" class="headerlink" title="1.2 特性"></a>1.2 特性</h2><p>具体参见&lt;<a target="_blank" rel="noopener" href="https://docs.yoctoproject.org/singleindex.html#features">Welcome to the Yocto Project Documentation -&gt; 2.1.1 Features</a>&gt;，这里不直接引用了，直接看官方英文文档吧。</p>
-<h2 id="1-3-相关路径"><a href="#1-3-相关路径" class="headerlink" title="1.3 相关路径"></a>1.3 相关路径</h2><p>以 yocto 开源项目为例，来看一下项目有哪些目录：<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br></pre></td><td class="code"><pre><span class="line">├── bitbake</span><br><span class="line">├── build</span><br><span class="line">├── contrib</span><br><span class="line">├── documentation</span><br><span class="line">├── LICENSE</span><br><span class="line">├── LICENSE.GPL<span class="number">-2.0</span>-only</span><br><span class="line">├── LICENSE.MIT</span><br><span class="line">├── MEMORIAM</span><br><span class="line">├── meta</span><br><span class="line">	├── classes</span><br><span class="line">	├── conf</span><br><span class="line">	├── files</span><br><span class="line">	├── lib</span><br><span class="line">    ├── recipes-bsp</span><br><span class="line">    ├── recipes-connectivity</span><br><span class="line">    ├── recipes-core</span><br><span class="line">    ├── recipes-devtools</span><br><span class="line">    ├── recipes-gnome</span><br><span class="line">    ├── recipes-graphics</span><br><span class="line">    └── recipes-kernel</span><br><span class="line">		├── kmod</span><br><span class="line">		├── linux</span><br><span class="line">		├── perf</span><br><span class="line">		└── dtc <span class="comment">//这里会编译出一个dtc工具</span></span><br><span class="line">			├── dtc</span><br><span class="line">			│   └── make_install.patch</span><br><span class="line">			├── dtc_1<span class="number">.6</span><span class="number">.0</span>.bb</span><br><span class="line">			└── dtc.inc</span><br><span class="line">├── meta-poky</span><br><span class="line">├── meta-qt5</span><br><span class="line">├── meta-selftest</span><br><span class="line">├── meta-skeleton</span><br><span class="line">├── meta-test-layer</span><br><span class="line">├── meta-yocto-bsp</span><br><span class="line">├── oe-init-build-env</span><br><span class="line">├── README.hardware -&gt; meta-yocto-bsp/README.hardware</span><br><span class="line">├── README.OE-Core</span><br><span class="line">├── README.poky -&gt; meta-poky/README.poky</span><br><span class="line">├── README.qemu</span><br><span class="line">└── scripts</span><br><span class="line"></span><br></pre></td></tr></table></figure><br>相关目录详情如下</p>
-<style> table th:first-of-type { width: 150px; } </style>
-
-<div class="table-container">
-<table>
-<thead>
-<tr>
-<th style="text-align:left">目录 &nbsp; &nbsp; &nbsp;</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">bitbake</td>
-<td>存放bitbake相关工具，BitBake是一个通用的任务执行引擎，类似Make的构建引擎（差异其实较大）。</td>
-</tr>
-<tr>
-<td style="text-align:left">build</td>
-<td>包含用户配置文件，以及OpenEmbedded构建系统的输出产物（包括拷贝的用于编译的源码，编译中间产物，编译最终输出）</td>
-</tr>
-<tr>
-<td style="text-align:left">meta</td>
-<td>meta目录是OpenEmbedded的核心元数据，包含基本的class，conf（machine机器配置，发行版本配置）和一些recipe</td>
-</tr>
-<tr>
-<td style="text-align:left">meta-poky</td>
-<td>Poky发行版的配置</td>
-</tr>
-<tr>
-<td style="text-align:left">meta-selftest</td>
-<td>这个目录添加了额外的配方和附加文件，由OpenEmbedded selftests用来验证构建系统的行为，一般不在构建系统中</td>
-</tr>
-<tr>
-<td style="text-align:left">meta-skeleton</td>
-<td>这个目录包含BSP和内核开发的模板配方</td>
-</tr>
-<tr>
-<td style="text-align:left">meta-yocto-bsp</td>
-<td>这个目录包含了Yocto项目的参考硬件板卡支持包（BSPs）。关于BSP的更多信息，请参见<a target="_blank" rel="noopener" href="http://docs.yoctoproject.org/bsp-guide/index.html#yocto-project-board-support-package-developer-s-guide">Yocto Project Board Support Package Developer’s Guide — The Yocto Project ® dev documentation</a></td>
-</tr>
-</tbody>
-</table>
-</div>
-<h2 id="1-4-专业术语"><a href="#1-4-专业术语" class="headerlink" title="1.4 专业术语"></a>1.4 专业术语</h2><p><style> table th:first-of-type { width: 150px; } </style><br>| 术语               | 描述                                                         |<br>| ————————— | —————————————————————————————— |<br>| 类（<code>class</code>）      | 类文件被用来抽象出共同的功能，并在多个配方（.bb）文件中共享，<code>BitBake</code>类文件使用<code>bbclass</code>后缀 |<br>| 配置文件（<code>conf</code>） | 包含变量的全局定义，用户定义的变量和硬件配置信息的文件，已.conf文件名结尾。<br>build目录中的conf/local.conf配置文件为编译自动生成，包含了用户定义的变量，这些变量会影响到每次构建。 |<br>| 食谱（recipe)      | 一系列构建packages的指令，后缀为bb文件名。<br>主要描述从哪里获取源码，应用哪些patch，如何编译他们等等，同时还描述了库或者其他食谱的依赖关系 |<br>| 元数据（Metadata） | 元数据包括类，菜谱，配置文件和引用构建指令本身的其他信息，以及用于控制构建内容并影响构建方式的数据。<code>OpenEmbedded Core</code>是一组重要的经过验证的元数据 |<br>| Bitbake            | 作为<code>OpenEmbedded</code>构建系统中的构建引擎，它通过以特定格式编写的食谱工作，以执行一系列任务。 |<br>| Task（任务）       | Bitbake执行的基本单元                                        |<br>| 层（layer）        | 层是包含相关指令集的仓库，告诉OpenEmbedded构建系统要做什么。<br>主要作用为模块化开发，降低耦合度，每个大模块都构建一个Layer，例如BSP layer，主要涉及到与特定硬件相关的内容 |<br>| 包（<code>package</code>）    | 包含可执行的二进制文件，库，文档，配置信息和其他文件，一个食谱默认如下package：<br>  ${PN}-dbg ${PN}-staticdev ${PN}-dev ${PN}-doc ${PN}-locale ${PACKAGE_BEFORE_PN} ${PN} |</p>
-<p>简单来说，<br>Metadata = Configuration(.conf) + Classes(.bbclass) + Recipes(.bb)<br>Yocto = Bitbake + Metadata<br>大致框图如下：<br><img src="/2021/06/30/Yocto-Build-System-Introduction/Yocto.JPG" alt="Yocto"></p>
-<hr>
-<p>&nbsp;</p>
-<h1 id="2-yocto工作流程"><a href="#2-yocto工作流程" class="headerlink" title="2 yocto工作流程"></a>2 yocto工作流程</h1><p>Yocto的工作流程大致如下：<br><img src="/2021/06/30/Yocto-Build-System-Introduction/yocto_workflow.JPG" alt="Yocto_Poky_OpenEmbedded_Relationship"><br>主要组成部分如下：</p>
-<ul>
-<li>User Configuration: 可用于控制构建过程的元数据。</li>
-<li>Metadata Layers: 元数据Layer，可以是软件层，硬件机器层，Distro等等层，主要用来减少耦合，重复利用。</li>
-<li>Source Files: 包括上游版本（例如，tarball 或 zip 文件），本地源码，源控制管理（SCM）的提取器（例如，git 或 svn）</li>
-<li>Build System: 在BitBake控制下的过程。这个区块阐述了BitBake如何获取源代码、应用补丁、完成编译、分析输出以生成包、创建和测试包、生成镜像以及生成交叉开发工具。</li>
-<li>Package Feeds: 包含输出包（RPM、DEB或IPK）的目录，这些包随后被用于构建产生镜像或软件开发工具包（SDK）。</li>
-<li>Images: 由工作流程产生的图像。</li>
-<li>Application Development SDK: 与镜像一起制作或与BitBake单独制作的交叉开发工具。</li>
-</ul>
-<h2 id="2-1-User-Configuration"><a href="#2-1-User-Configuration" class="headerlink" title="2.1 User Configuration"></a>2.1 User Configuration</h2><p>用户配置有助于定义构建。通过用户配置，你能告诉BitBake你要构建的镜像的目标架构是什么，在哪里存储下载的源码，以及其他构建属性。<br>下图显示工作流程：<br><img src="/2021/06/30/Yocto-Build-System-Introduction/Yocto_User_Configuration.JPG" alt="Yocto_User_Configuration"></p>
-<p>使用yocto poky项目tree一下build目录，查看conf目录</p>
-<p>BitBake需要一些基本的配置文件，以完成构建。这些文件是*.conf文件。最小的必要文件作为示例文件存在于Source Directory的build/conf目录中</p>
-<ul>
-<li>local.conf：文件提供了许多定义构建环境的基本变量。（包括目标机选择，下载目录，共享状态目录，构建输出等等）</li>
-<li>bblayers.conf：文件告诉BitBake，在构建时你需要考虑哪些layer。默认情况下，该文件中列出的层包括构建系统所需的最小层。</li>
-<li>site.conf：略</li>
-<li>auto.conf：略，自动生成</li>
-</ul>
-<h2 id="2-2-Metadata-Layers"><a href="#2-2-Metadata-Layers" class="headerlink" title="2.2 Metadata Layers"></a>2.2 Metadata Layers</h2><p>上小一节描述了定义BitBake全局行为的用户配置。本节讲仔细分析那些用来进一步控制编译的构建系统的layer。这些层提供software、machine和policy的元数据。</p>
-<p>一般来说，有三种类型的layer输入，你可以在工作流程图的最左侧看到它们。</p>
-<ul>
-<li>Metadata(.bb + Patches)：软件layer包含用户提供的recipe文件，patches 和append文件。示例：meta-qt5 layer layer，这个层是针对流行的Qt跨平台应用开发框架的5.0版本，用于桌面、嵌入式和移动。</li>
-<li>Machine BSP Configuration：板卡支持包（BSP）layer提供机器特定的配置，这种类型的信息是针对特定的目标架构的，示例：meta-yocto-bsp layer</li>
-<li>Policy Configuration：Distro Layer，为某一特定发行版构建的镜像或SDK提供顶层或一般策略，示例如下：<ul>
-<li>高通Ubuntu项目 —-&gt; meta-qti-ubuntu/conf/distro/qti-distro-ubuntu-fullstack-debug.conf</li>
-<li>yocto poky项目 —-&gt; meta-poky/conf/distro/poky.conf</li>
-</ul>
-</li>
-</ul>
-<p>下面为何3个layer的扩展框图：</p>
-<p><img src="/2021/06/30/Yocto-Build-System-Introduction/Yocto_Metadata.JPG" alt="Yocto_Metadata"></p>
-<p>如图所示，一般来说，所有的层都有一个类似的结构。它们都包含一个许可文件（例如：COPYING.MIT），一个README文件一个配置目录，以及配方目录。<br>在上一小节，我们有说道，Bitbake 根据 build/conf/bblayers.conf文件的内容来确定有哪些layer参与到编译。</p>
-<h2 id="2-3-Sources"><a href="#2-3-Sources" class="headerlink" title="2.3 Sources"></a>2.3 Sources</h2><p>构建镜像自然会使用到源码，我们使用Android的编译系统的时候，所有源码都存放在本地，而Yocto编译系统构建系统时使用到的源码主要来自如下3个方面：</p>
-<ul>
-<li>Upstream Project Releases：以存档文件的形式存在于任何地方（例如，tarball或zip文件）。</li>
-<li>Local Projects：本地源码，和之前的Android项目的源码类似，</li>
-<li>SCMs(optional)：源控制管理（SCM）的提取器，如Git或Subversion。BitBake内部的do_fetch任务使用SRC_URI变量和参数的前缀来确定正确的获取器模块。</li>
-</ul>
-<p>下图是对源文件区域的工作流程图<br><img src="/2021/06/30/Yocto-Build-System-Introduction/Yocto_Sources.JPG" alt="Yocto_Sources"></p>
-<h2 id="2-4-Package-Feeds"><a href="#2-4-Package-Feeds" class="headerlink" title="2.4 Package Feeds"></a>2.4 Package Feeds</h2><p>Package Feeds 是构建过程中的一个中间步骤，构建系统用来临时存储包的目录是由变量的组合和使用中的特定包管理器决定的。<br>同时OpenEmbedded构建系统通过PACKAGE_CLASSES变量来指定package的类型，并且在将包放入Package Feeds中之前会使用insane类来验证它们。</p>
-<p><img src="/2021/06/30/Yocto-Build-System-Introduction/Yocto_Package_Feeds.JPG" alt="Yocto_Package_Feeds"></p>
-<ul>
-<li>DEPLOY_DIR: 定义为构建目录中的tmp/deploy。</li>
-<li>DEPLOY<em>DIR</em>*: 根据package的类型不同，分别为DEPLOY_DIR_RPM, DEPLOY_DIR_IPK, DEPLOY_DIR_DEB<ul>
-<li>DEPLOY_DIR_RPM = “${DEPLOY_DIR}/rpm”</li>
-<li>DEPLOY_DIR_IPK = “${DEPLOY_DIR}/ipk”</li>
-<li>DEPLOY_DIR_DEB = “${DEPLOY_DIR}/deb”</li>
-</ul>
-</li>
-<li>PACKAGE_ARCH:定义了特定于架构的子文件夹。例如，软件包可以存在于i586或qemux86架构下。</li>
-</ul>
-<h2 id="2-5-BitBake-Tool"><a href="#2-5-BitBake-Tool" class="headerlink" title="2.5 BitBake Tool"></a>2.5 BitBake Tool</h2><p>OpenEmbedded构建系统使用BitBake来构建镜像和软件开发工具包（SDK）。在工作流程总图中，蓝色代表Bitbake部分，可以看到，BitBake区域由如下几个功能区组成。</p>
-<p><img src="/2021/06/30/Yocto-Build-System-Introduction/yocto_bitbake_tool.JPG" alt="yocto_bitbake_tool.JPG"></p>
-<ul>
-<li>Source Fetching</li>
-<li>Patching</li>
-<li>Configuration, Compilation, and Staging</li>
-<li>Package Splitting</li>
-<li>Image Generation</li>
-<li>SDK Generation</li>
-<li>Stamp Files and the Rerunning of Tasks</li>
-<li>Setscene Tasks and Shared State</li>
-</ul>
-<h3 id="2-5-1Source-Fetching"><a href="#2-5-1Source-Fetching" class="headerlink" title="2.5.1Source Fetching"></a>2.5.1Source Fetching</h3><p>构建 recipe 的第一个阶段是获取和解压源代码。</p>
-<ul>
-<li>do_fetch：获取源文件</li>
-<li>do_unpack解压源文件到构建目录。</li>
-</ul>
-<p>详细框图如下：<br><img src="/2021/06/30/Yocto-Build-System-Introduction/Yocto_Source_Fetching.JPG" alt="Yocto_Source_Fetching"></p>
-<p>注：<br>对于每个本地文件（e.g. file://）, OpenEmbedded构建系统为 recipe 提取文件的 checksum，并将该 checksum 插入do_fetch任务的签名中。如果任何本地文件被修改，do_fetch任务和所有依赖它的任务将被重新执行。</p>
-<p>每个配方在构建目录中都有一个区域，用来存放已解压的源代码。S变量指向配方解压后的源代码的这个区域。</p>
-<p>其中涉及到如下宏定义：</p>
-<ul>
-<li>TMPDIR：基础目录，OpenEmbedded构建系统在构建过程中执行其所有工作。默认的基础目录是tmp目录。</li>
-<li>PACKAGE_ARCH。构建软件包的架构。根据包或包的最终目的地（即机器架构、构建主机、SDK或特定机器），PACKAGE_ARCH会有所不同。详情请参见变量的描述。</li>
-<li>TARGET_OS：目标设备的操作系统。一个典型的值是 “linux”（例如：”qemux86-poky-linux”）。</li>
-<li>PN。用于构建软件包的配方的名称。这个变量可以有多种含义。然而，当在输入文件的上下文中使用时，PN代表配方的名称。</li>
-<li>WORKDIR：OpenEmbedded构建系统构建配方的位置（即进行创建软件包的工作的位置）。</li>
-<li>PV：用于构建软件包的配方的版本。</li>
-<li>PR：用于构建软件包的配方的修订版。</li>
-<li>S: 包含给定配方的未打包的源文件。</li>
-<li>BPN。用于建立软件包的配方的名称。BPN变量是PN变量的一个版本，但去掉了常见的前缀和后缀。</li>
-<li>PV：用于构建软件包的配方的版本。</li>
-</ul>
-<p>注意：<br>在前面的图中，注意到有两个样本层次：一个是基于包架构的（即PACKAGE_ARCH），一个是基于机器的（即MACHINE）。底层结构是相同的。区别在于OpenEmbedded构建系统使用什么作为构建目标（如一般架构、构建主机、SDK或特定机器）。</p>
-<h3 id="2-5-2-Patching"><a href="#2-5-2-Patching" class="headerlink" title="2.5.2 Patching"></a>2.5.2 Patching</h3><p>一旦获取了源代码并解压，BitBake就会定位补丁文件并将其应用于源文件，详细框图如下：<br><img src="/2021/06/30/Yocto-Build-System-Introduction/Yocto_Patching.JPG" alt="Yocto_Patching"></p>
-<p>do_patch任务使用配方的SRC_URI语句和FILESPATH变量来定位适用的补丁文件。FILESPATH 变量定义了构建系统用来搜索补丁文件的默认目录集。一旦找到，补丁就会应用于配方的源文件，这些源文件位于S目录下。</p>
-<h3 id="2-5-3-Configuration-Compilation-and-Staging"><a href="#2-5-3-Configuration-Compilation-and-Staging" class="headerlink" title="2.5.3 Configuration, Compilation, and Staging"></a>2.5.3 Configuration, Compilation, and Staging</h3><p>源代码打完补丁后，BitBake执行配置和编译源代码的任务。编译完成后，文件被复制到一个保存区（staged），准备打包。</p>
-<p><img src="/2021/06/30/Yocto-Build-System-Introduction/Yocto_Configuration_Compilation_and_Staging.JPG" alt="Yocto_Configuration_Compilation_and_Staging"></p>
-<p>构建过程由以下任务组成：</p>
-<ul>
-<li>do_prepare_recipe_sysroot：这项任务在 ${WORKDIR} 中设置了两个系统根（即 recipe-sysroot 和 recipe-sysroot-native）</li>
-<li>do_configure: 为构建中的软件 enable/disalbe 任何 build-time 和配置选项，从而来配置源。</li>
-<li>do_compile。一旦配置任务得到满足，BitBake会使用do_compile任务编译源代码。编译发生在B变量所指向的目录中。请注意，B目录默认与S目录相同。</li>
-<li>do_install: 编译完成后，BitBake执行do_install任务。这个任务从B目录复制文件，并把它们放在由D变量指向的保留区中。稍后会使用这个保留目录中的文件进行打包。</li>
-</ul>
-<h3 id="2-5-4-Package-Splitting"><a href="#2-5-4-Package-Splitting" class="headerlink" title="2.5.4 Package Splitting"></a>2.5.4 Package Splitting</h3><p>在源代码被配置、编译和 staged 后，the build system analyzes the results and splits the output into packages。<br><img src="/2021/06/30/Yocto-Build-System-Introduction/Yocto_Package_Splitting.JPG" alt="Yocto_Package_Splitting"></p>
-<ul>
-<li>do_package 和 do_packagedata 任务结合起来，分析在D目录中发现的文件，并根据可用的包和文件将它们分成子集。</li>
-<li>do_packagedata 任务根据分析结果创建包的元数据，以便构建系统能够生成最终的包。</li>
-<li>do_populate_sysroot 任务将 do_install 任务所安装的文件子集分阶段（复制）到适当的系统根中。</li>
-</ul>
-<p>根据正在创建的包的类型（RPM、DEB或IPK），do<em>package_write</em>*任务会创建实际的包，并把它们放在Package Feed区域，也就是${TMPDIR}/deploy。</p>
-<h3 id="2-5-5-Image-Generation"><a href="#2-5-5-Image-Generation" class="headerlink" title="2.5.5 Image Generation"></a>2.5.5 Image Generation</h3><p>一旦软件包被拆分并存储在Package Feeds区域，构建系统就会使用BitBake来生成根文件系统镜像。大致流程图如下：<br><img src="/2021/06/30/Yocto-Build-System-Introduction/Yocto_Image_Generation.JPG" alt="Yocto_Image_Generation"></p>
-<p>镜像生成过程由几个阶段组成，并依赖于几个任务和变量。</p>
-<ul>
-<li>do_rootfs 任务为一个镜像创建根文件系统（文件和目录结构）。这个任务使用几个关键变量来帮助创建要实际安装的软件包列表。<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">IMAGE_INSTALL: 列出基本的软件包集，从Package Feeds区进行安装。</span><br><span class="line">package_exclude: 指定不应该被安装到镜像中的软件包。</span><br><span class="line">image_features: 指定要包含在镜像中的特性。大多数这些功能都映射到额外的软件包中进行安装。</span><br><span class="line">package_classes: 指定要使用的软件包后端（例如 RPM、DEB 或 IPK），从而帮助确定在软件包馈送区域内找到软件包的位置。</span><br><span class="line">IMAGE_LINGUAS: 确定安装额外语言支持包的语言。</span><br><span class="line">PACKAGE_INSTALL: 传递给软件包管理器以安装到镜像中的最终软件包列表。</span><br></pre></td></tr></table></figure></li>
-<li>do_rootfs任务的最后阶段是处理后期处理。后期处理包括创建一个清单文件和优化。</li>
-<li>do_image:在根文件系统建立后，通过do_image任务开始对镜像进行处理</li>
-<li>do<em>image</em>*：将所有东西变成一个镜像文件或一组镜像文件，并可以压缩根文件系统镜像以减少镜像的整体大小</li>
-<li>do_image_complete：This task completes the image by applying any image post processing as defined through the IMAGE_POSTPROCESS_COMMAND variable. 该变量指定了在构建系统创建最终镜像时输出文件后要调用的函数列表。</li>
-</ul>
-<h3 id="2-5-6-SDK-Generation"><a href="#2-5-6-SDK-Generation" class="headerlink" title="2.5.6 SDK Generation"></a>2.5.6 SDK Generation</h3><p>OpenEmbedded构建系统使用BitBake来生成标准SDK和可扩展SDK（eSDK）的软件开发工具包（SDK）安装脚本。</p>
-<p><img src="/2021/06/30/Yocto-Build-System-Introduction/Yocto_SDK_Generation.JPG" alt="Yocto_SDK_Generation"></p>
-<p>与镜像生成一样，SDK脚本的过程由几个阶段组成，并取决于许多变量。</p>
-<ul>
-<li>do_populate_sdk任务帮助创建标准的SDK，并处理两个部分：一个目标部分和一个主机部分。目标部分是为目标硬件建立的部分，包括库和头文件。主机部分是SDK中在SDKMACHINE上运行的部分。</li>
-<li>do_populate_sdk_ext任务有助于创建可扩展的SDK，它处理主机和目标部分的方式与处理标准SDK的方式不同。对于可扩展的SDK，该任务封装了构建系统，其中包括SDK所需的一切（主机和目标）。</li>
-</ul>
-<p>无论构建何种类型的SDK，任务都会进行一些清理工作，然后创建交叉开发环境设置脚本和任何需要的配置文件。最后的输出是交叉开发工具链安装脚本（.sh文件），其中包括环境设置脚本。</p>
-<h3 id="2-5-7-Stamp-Files-and-the-Rerunning-of-Tasks"><a href="#2-5-7-Stamp-Files-and-the-Rerunning-of-Tasks" class="headerlink" title="2.5.7 Stamp Files and the Rerunning of Tasks"></a>2.5.7 Stamp Files and the Rerunning of Tasks</h3><p>对于每个成功完成的任务，BitBake会在STAMPS_DIR目录下写一个印章文件。Stamp 文件的文件名的开头由STAMP变量决定，文件名的结尾由任务的名称和当前输入的校验值组成。</p>
-<p>为了确定一个任务是否需要重新运行，BitBake检查该任务是否存在一个具有匹配输入校验和的Stamp 文件。在这种情况下，任务的输出被认为是存在的并且仍然有效。否则，该任务将被重新运行。</p>
-<h3 id="2-5-8-Setscene-Tasks-and-Shared-State"><a href="#2-5-8-Setscene-Tasks-and-Shared-State" class="headerlink" title="2.5.8 Setscene Tasks and Shared State"></a>2.5.8 Setscene Tasks and Shared State</h3><p>略</p>
-<h2 id="2-6-Images"><a href="#2-6-Images" class="headerlink" title="2.6 Images"></a>2.6 Images</h2><p>构建系统产生的镜像是根文件系统的压缩形式，可以在目标设备上启动。<br>如下图所示，BitBake的部分产物来构成镜像。<br><img src="/2021/06/30/Yocto-Build-System-Introduction/Yocto_Images.JPG" alt="Yocto_Images"></p>
-<p>如图所示，构建过程将镜像写到tmp/deploy/images/machine/文件夹内的构建目录。这个文件夹包含了预期在目标设备上加载的任何文件。</p>
-<ul>
-<li>DEPLOY_DIR变量指向部署目录</li>
-<li>DEPLOY_DIR_IMAGE变量指向包含当前配置镜像的合适目录。</li>
-<li>kernel-image：一个内核二进制文件。KERNEL_IMAGETYPE变量决定了内核镜像文件的命名方案。根据这个变量，该文件可以以各种命名字符串开始。deploy/images/machine目录可以包含机器的多个镜像文件。</li>
-<li>root-filesystem-image：目标设备的根文件系统（例如，<em>.ext3或</em>.bz2文件）。IMAGE_FSTYPES变量决定了根文件系统镜像的类型。deploy/images/machine目录可以包含机器的多个根文件系统。</li>
-<li>kernel-modules：包含所有为内核建立的模块的压缩包。内核模块压缩包的存在是出于传统的目的，可以通过将MODULE_TARBALL_DEPLOY变量设置为 “0 “来抑制。deploy/images/machine目录可以包含机器的多个内核模块tarballs。</li>
-<li>bootloaders：如果适用于目标机器，支持镜像的引导程序。deploy/images/machine目录可以包含该机器的多个引导程序。</li>
-<li>symlinks：deploy/images/machine文件夹包含一个符号链接，指向每台机器的最新构建的文件。这些链接对于需要获得每个文件的最新版本的外部脚本可能很有用。</li>
-</ul>
-<h2 id="2-7-Application-Development-SDK"><a href="#2-7-Application-Development-SDK" class="headerlink" title="2.7 Application Development SDK"></a>2.7 Application Development SDK</h2><p>在总的工作流程图中，标有 “Application Development SDK “的输出代表一个SDK。<br>详情略</p>
-<h2 id="2-8-Shared-State-Cache"><a href="#2-8-Shared-State-Cache" class="headerlink" title="2.8 Shared State Cache"></a>2.8 Shared State Cache</h2><p>根据设计，OpenEmbedded构建系统从头开始构建，除非BitBake可以确定部件不需要重新构建。从根本上说，从头开始构建是有吸引力的，因为它意味着所有的部件都是全新构建的，没有可能出现陈旧的数据而导致问题。当开发人员遇到问题时，他们通常会默认回到从头开始构建，这样他们从一开始就有一个已知的状态。</p>
-<p>从头开始构建镜像的过程既是一个优势，也是一个劣势。正如上一段提到的，从头开始构建可以确保所有的东西都是最新的，并从已知的状态开始。然而，从头开始构建也需要更长的时间，因为它通常意味着重建那些不一定需要重建的东西。</p>
-<p>Yocto项目实现了共享状态代码，支持增量构建。共享状态代码的实现回答了以下问题，这些问题是OpenEmbedded增量构建支持系统中的基本路障。</p>
-<p>Q：系统的哪些部分已经改变，哪些部分没有改变？<br>A：构建系统通过创建任务输入的校验和（或签名）来检测给定任务的 “输入 “的变化。如果校验和发生变化，系统就认为输入发生了变化，任务就需要重新运行。</p>
-<p>Q：如何删除和替换已经改变的软件片段？<br>A：共享状态（sstate）代码跟踪哪些任务为构建过程增加了哪些输出。这意味着一个特定任务的输出可以被删除、升级或以其他方式操作</p>
-<p>Q：当预建的组件可用时，如何使用这些不需要从头开始重建的组件？<br>由第二个问题的解决方案部分解决，假设构建系统可以从远程位置获取sstate对象，如果它们被认为是有效的，就可以安装它们。</p>
-<p>本节的其余部分将详细介绍整个增量构建架构、校验和（签名）和共享状态。</p>
-<h3 id="2-8-1-Overall-Architecture"><a href="#2-8-1-Overall-Architecture" class="headerlink" title="2.8.1 Overall Architecture"></a>2.8.1 Overall Architecture</h3><p>当确定系统的哪些部分需要被构建时，BitBake以每任务为基础工作，而不是以每配方为基础，因为以任务为基础比以配方为基础更加高效。</p>
-<h3 id="2-8-2-Checksums-Signatures"><a href="#2-8-2-Checksums-Signatures" class="headerlink" title="2.8.2 Checksums (Signatures)"></a>2.8.2 Checksums (Signatures)</h3><p>共享状态代码使用校验和，这是一个任务输入的唯一签名，以确定一个任务是否需要再次运行。因为触发重新运行的是任务输入的变化，所以这个过程需要检测一个特定任务的所有输入。</p>
-<h3 id="2-8-3-Shared-State"><a href="#2-8-3-Shared-State" class="headerlink" title="2.8.3 Shared State"></a>2.8.3 Shared State</h3><p>略</p>
-<h2 id="2-9-Automatically-Added-Runtime-Dependencies"><a href="#2-9-Automatically-Added-Runtime-Dependencies" class="headerlink" title="2.9 Automatically Added Runtime Dependencies"></a>2.9 Automatically Added Runtime Dependencies</h2><p>OpenEmbedded构建系统会自动添加软件包之间的常见类型的运行时依赖关系，这意味着你不需要使用RDEPENDS明确地声明软件包。有三种自动机制（shlibdeps、pcdeps和depchains）分别处理共享库、包配置（pkg-config）模块以及-dev和-dbg包。对于其他类型的运行时依赖关系，你必须手动声明这些依赖关系。<br>详细介绍略</p>
-<p>当允许执行某些通常为根用户保留的操作时，一些任务更容易实现（例如do_install、do_package_write<em>、do_rootfs和do_image</em>）。例如，do_install任务可以将已安装文件的UID和GID设置为任意值，这让它受益匪浅。</p>
-<p>允许任务执行仅有root权限的操作的一种方法是要求BitBake以root身份运行。然而，这种方法很麻烦，而且有安全问题。实际使用的方法是在一个 “假 “根环境中运行受益于根权限的任务。在这个环境中，任务和它的子进程认为它们是以根用户身份运行的，并看到文件系统的内部一致视图。只要生成最终的输出（例如，一个包或一个镜像）不需要根权限，那么先前的一些步骤在假根环境中运行的事实就不会造成问题。</p>
-<p>在假根环境中运行任务的能力被称为 “fakeroot”，它来自于BitBake的关键字/变量标志，要求为一个任务提供假根环境。</p>
-<h2 id="2-10-Fakeroot-and-Pseudo"><a href="#2-10-Fakeroot-and-Pseudo" class="headerlink" title="2.10 Fakeroot and Pseudo"></a>2.10 Fakeroot and Pseudo</h2><p>当允许执行某些通常为根用户保留的操作时，一些任务更容易实现（例如do_install、do_package_write<em>、do_rootfs和do_image</em>）。例如，do_install任务可以将已安装文件的UID和GID设置为任意值，这让它受益匪浅。</p>
-<p>允许任务执行仅有root权限的操作的一种方法是要求BitBake以root身份运行。然而，这种方法很麻烦，而且有安全问题。实际使用的方法是在一个 “假 “根环境中运行受益于根权限的任务。在这个环境中，任务和它的子进程认为它们是以根用户身份运行的，并看到文件系统的内部一致视图。只要生成最终的输出（例如，一个包或一个镜像）不需要根权限，那么先前的一些步骤在假根环境中运行的事实就不会造成问题。</p>
-<p>在假根环境中运行任务的能力被称为 “fakeroot”，它来自于BitBake的关键字/变量标志，要求为一个任务提供假根环境。</p>
-<p>在OpenEmbedded构建系统中，实现fakeroot的程序被称为Pseudo。Pseudo通过使用环境变量LD_PRELOAD来重写系统调用，这就造成了以root身份运行的假象。为了跟踪需要root权限的操作所产生的 “假 “文件所有权和权限，Pseudo使用一个SQLite 3数据库。这个数据库存储在${WORKDIR}/pseudo/files.db中，用于各个菜谱。将数据库存储在文件中，而不是存储在内存中，使得任务和构建之间具有持久性，而这是使用fakeroot无法实现的。</p>
-<p>&nbsp;</p>
-<hr>
-<p>&nbsp;</p>
-<h1 id="3-Yocto-Project组件"><a href="#3-Yocto-Project组件" class="headerlink" title="3. Yocto Project组件"></a>3. Yocto Project组件</h1><p>组成整个Yocto Project的最重要的组件如下：</p>
-<ul>
-<li>BitBake</li>
-<li>Recipes</li>
-<li>Configuration Files</li>
-<li>Classes</li>
-<li>Layers</li>
-<li>Append Files</li>
-</ul>
-<p>下面我们分别来介绍这几个组件。</p>
-<h2 id="BitBake"><a href="#BitBake" class="headerlink" title="BitBake"></a>BitBake</h2><p>从根本上说，BitBake是一个通用的任务执行引擎，它允许shell和Python任务有效地并行运行，同时在复杂的任务间依赖性约束下工作。BitBake的主要用户之一，OpenEmbedded，采用这个核心，用面向任务的方法构建嵌入式Linux软件堆栈。</p>
-<p>从概念上讲，BitBake在某些方面类似于GNU Make，GNU Make通过 “makefiles “实现其控制，而BitBake使用 “recipes”，但又有很大的不同。</p>
-<p>BitBake扩展了像GNU Make这样的简单工具的能力，允许定义更复杂的任务，如组装整个嵌入式Linux发行版。</p>
-<p>BitBake通过提供能建立任务的元数据来执行任务。元数据存储在配方（.bb）和相关的配方”附加”（.bbappend）文件、配置（.conf）和底层包括（.inc）文件，以及类（.bbclass）文件中。元数据为BitBake提供了关于运行什么任务以及这些任务之间的依赖关系的指示。</p>
-<p>BitBake包括一个获取器库，用于从各种地方获取源代码，如本地文件、源码控制系统或网站。</p>
-<p>每个要构建的单元（如一个软件）的指令被称为 “配方 “文件，包含该单元的所有信息（依赖性、源文件位置、校验和、描述等）。</p>
-<p>Bitbake的工作流程简易图如下<br><img src="/2021/06/30/Yocto-Build-System-Introduction/Yocto_Simple_Workflow.png" alt="Yocto_Simple_Workflow"></p>
-<p>OE task编译的顺序如下：<br><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">do_setscene</span><br><span class="line">do_fetch</span><br><span class="line">do_unpack</span><br><span class="line">do_path</span><br><span class="line">do_configure</span><br><span class="line">do_qa_configure</span><br><span class="line">do_compile</span><br><span class="line">do_stage</span><br><span class="line">do_install</span><br><span class="line">do_package</span><br><span class="line">do_populate_staging</span><br><span class="line">do_package_write_deb</span><br><span class="line">do_package_write</span><br><span class="line">do_distribute_sources</span><br><span class="line">do_qa_staging</span><br><span class="line">do_build</span><br><span class="line">do_rebuild</span><br></pre></td></tr></table></figure><br>Note:<br>可以使用如下命令来单独执行某个recipe的task<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">bitbake &lt;target&gt; -c &lt;task&gt;</span><br></pre></td></tr></table></figure><br>同时可以使用如下命令来显示某个recipe可执行的任务<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">bitbake &lt;target&gt; -c listtasks</span><br></pre></td></tr></table></figure></p>
-<h2 id="Recipes"><a href="#Recipes" class="headerlink" title="Recipes"></a>Recipes</h2><p>BitBake配方，以文件扩展名.bb表示，是最基本的元数据文件。这些配方文件为BitBake提供了以下内容。</p>
-<ul>
-<li>关于软件包的描述性信息（作者、主页、许可证，等等</li>
-<li>配方的版本</li>
-<li>现有的依赖性（包括构建和运行时的依赖性</li>
-<li>源代码的位置以及如何获取它</li>
-<li>源代码是否需要任何补丁，在哪里可以找到它们，以及如何应用它们</li>
-<li>如何配置和编译源代码</li>
-<li>如何将生成的工件组装成一个或多个可安装包</li>
-<li>在目标机器上哪里安装所创建的包？</li>
-</ul>
-<h2 id="Configuration-Files"><a href="#Configuration-Files" class="headerlink" title="Configuration Files"></a>Configuration Files</h2><p>配置文件，用.conf扩展名表示，定义了管理项目构建过程的各种配置变量。<br>这些文件分为几个区域，分别定义机器配置、分布式配置、可能的编译器tuning、一般通用配置和用户配置。</p>
-<h2 id="Classes"><a href="#Classes" class="headerlink" title="Classes"></a>Classes</h2><p>类文件，用.bbclass扩展名表示，包含在元数据文件之间共享的有用信息。<br>BitBake source tree目前带有一个名为base.bbclass的类元数据文件。<br>你可以在meta/classes/目录中找到这个文件。base.bbclass类文件很特别，因为它总是自动包含在所有配方和类中。<br>这个类包含了标准基本任务的定义，如获取、解包、配置（默认为空）、编译（运行任何存在的Makefile）、安装（默认为空）和打包（默认为空）。这些任务经常被在项目开发过程中添加的其他类所覆盖或扩展。</p>
-<h2 id="Layers"><a href="#Layers" class="headerlink" title="Layers"></a>Layers</h2><p>Layer允许你将不同类型的定制内容相互隔离。当你在一个项目上工作时，你可能会发现把所有东西都放在一个层里是很诱人的，但你的元数据越是模块化，就越容易应对未来的变化。</p>
-<h2 id="Append-Files"><a href="#Append-Files" class="headerlink" title="Append Files"></a>Append Files</h2><p>附加文件，是具有.bbappend文件扩展名的文件，扩展或覆盖现有配方文件中的信息。</p>
-<p>BitBake希望每个附加文件都有一个相应的配方文件。此外，附录文件和相应的配方文件必须使用相同的根文件名。文件名只能在使用的文件类型后缀上有所不同（例如formfactor_0.0.bb和formfactor_0.0.bbappend）。</p>
-<p>附加文件中的信息扩展或覆盖了底层的、类似名称的配方文件中的信息。</p>
-<p>当你为append文件命名时，你可以使用”%”通配符来允许匹配配方名称。例如，假设你有一个附录文件，命名如下。</p>
-<p>busybox_1.21.%.bbappend<br>该附录文件将匹配任何busybox_1.21.x.bb版本的配方。因此，该附录文件将与以下配方名称相匹配。</p>
-<p>busybox_1.21.1.bb<br>busybox_1.21.2.bb<br>busybox_1.21.3.bb</p>
-<h1 id="4-bitbake-语法"><a href="#4-bitbake-语法" class="headerlink" title="4. bitbake 语法"></a>4. bitbake 语法</h1><p>BitBake文件有自己的语法，这里只是列出常用语法，详细规则请参考官方如下文档：<br><a target="_blank" rel="noopener" href="https://docs.yoctoproject.org/bitbake/bitbake-user-manual/bitbake-user-manual-metadata.html#syntax-and-operators">3 Syntax and Operators — Bitbake dev documentation (yoctoproject.org)</a></p>
-<h2 id="Basic-语法"><a href="#Basic-语法" class="headerlink" title="Basic 语法"></a>Basic 语法</h2><p>本节提供一些基本的语法例子。</p>
-<h3 id="1-基本变量设置"><a href="#1-基本变量设置" class="headerlink" title="1. 基本变量设置"></a>1. 基本变量设置</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"># 设置变量 VARIABLE 为 “value”</span><br><span class="line">VARIABLE &#x3D; &quot;value&quot;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"># 使用单引号，这样做允许你使用包含双引号字符的值。</span><br><span class="line">VARIABLE &#x3D; &#39;I have a &quot; in my value&#39;</span><br><span class="line"></span><br><span class="line"># 与Bourne shells不同，单引号与双引号在所有其他方面的作用相同。它们不会抑制变量的扩展。</span><br></pre></td></tr></table></figure>
-<h3 id="2-Line-Joining"><a href="#2-Line-Joining" class="headerlink" title="2. Line Joining"></a>2. Line Joining</h3><p>在函数之外，BitBake在解析语句之前将任何以反斜杠字符结尾的行与下一行连接起来。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">FOO &#x3D; &quot;bar \</span><br><span class="line">       baz \</span><br><span class="line">       qaz&quot;</span><br></pre></td></tr></table></figure><br>在连接行时，””字符和它后面的换行符都被删除。因此，FOO的值中没有换行符。</p>
-<p>注意，下面示例中FOO的值一致：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">FOO &#x3D; &quot;barbaz&quot;</span><br><span class="line">FOO &#x3D; &quot;bar\</span><br><span class="line">baz&quot;</span><br></pre></td></tr></table></figure></p>
-<h3 id="3-变量名展开"><a href="#3-变量名展开" class="headerlink" title="3. 变量名展开"></a>3. 变量名展开</h3><p>变量可以使用类似于 Bourne shell 中的变量扩展的语法来引用其他变量的内容。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">A &#x3D; &quot;aval&quot;</span><br><span class="line">B &#x3D; &quot;pre$&#123;A&#125;post&quot;</span><br></pre></td></tr></table></figure><br>A的当前值为”aval”，B的值为”preavalpost”，有2点需要注意</p>
-<pre><code>- &quot;=&quot;运算符不会立即展开右侧的变量引用。相反，扩展被推迟到实际使用被分配的变量时进行。其结果取决于被引用变量的当前值，即B的值都会依赖当时A的值。
-- 变量扩展时，“&#123;&#125;”不可省略。
-</code></pre><h3 id="4-变量的其他赋值方式"><a href="#4-变量的其他赋值方式" class="headerlink" title="4. 变量的其他赋值方式"></a>4. 变量的其他赋值方式</h3><p>a. 设置默认值(?=)<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">A ?&#x3D;&quot;aval&quot;</span><br></pre></td></tr></table></figure><br>如果在解析这条语句时，A被设置了，那么该变量将保留其值。但是，如果A没有被设置，变量就会被设置为 “aval”。<br>注：”?=”这个赋值是即时的。因此，如果对一个变量存在多个”?=”赋值，那么最终会使用其中的第一个。</p>
-<p>b. 设置weak默认值(??=)<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">A ??&#x3D; &quot;somevalue&quot;</span><br></pre></td></tr></table></figure><br>和”?=”功能相同，只是赋值是在解析过程的最后进行，而不是立即进行。<br>因此，当存在多个”??=”赋值时，将使用最后一个。另外，任何”=”或”?=”赋值都将覆盖用”?=”设置的值。这里有一个例子。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">A ??&#x3D; &quot;some value&quot;</span><br><span class="line">A ??&#x3D; &quot;some other value&quot;</span><br></pre></td></tr></table></figure><br>如果在解析上述语句之前设置了A，则该变量保留其值。如果没有设置A，则变量被设置为 “some other value”.</p>
-<p>c. 立即变量展开(:=)<br>“:=”操作符的结果是变量的内容被立即展开，而不是在实际使用该变量时。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">T &#x3D; &quot;123&quot;</span><br><span class="line">A :&#x3D; &quot;test $&#123;T&#125;&quot;</span><br><span class="line">T &#x3D; &quot;456&quot;</span><br><span class="line">B :&#x3D; &quot;$&#123;T&#125; $&#123;C&#125;&quot;</span><br><span class="line">C &#x3D; &quot;cval&quot;</span><br><span class="line">C :&#x3D; &quot;$&#123;C&#125;append&quot;</span><br></pre></td></tr></table></figure>
-<p>在这个例子中，A变量值为 “test 123”，尽管T的最终值是 “456”。<br>变量B最终值为 “456 cvalappend”。这是因为对未定义变量的引用在（即时）扩展过程中被原样保留。<br>这与GNU Make不同，在GNU Make中，未定义的变量会被扩展为零。因为${C}立即扩展为 “cval”，所以变量C的值为 “cvalappend”。</p>
-<p>d. 自带空格的Appending(+=)和Prepending(=+)<br>“+=”和”=+”在当前值和新追加的值之间会插入一个空格,操作为即时赋值。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">B &#x3D; &quot;bval&quot;</span><br><span class="line">B +&#x3D; &quot;additionaldata&quot;</span><br><span class="line">C &#x3D; &quot;cval&quot;</span><br><span class="line">C &#x3D;+ &quot;test&quot;</span><br></pre></td></tr></table></figure><br>变量B值为 “bval additionaldata”，变量C值为 “test cval”。</p>
-<p>e. 不带空格的Appending(.=)和Prepending(=.)<br>如果你想在后追加或者前追加变量值，而又不带空格，可以使用”.=” 和 “=.”,操作为即时赋值。<br>B = “bval”<br>B .= “additionaldata”<br>C = “cval”<br>C =. “test”<br>变量B值为 “bvaladditionaldata”，变量C值为 “testcval”。</p>
-<p>f. Appending and Prepending (Override Style Syntax)<br>上面的”:=”、”.=”、”=.”、”+=”和”=+”都是即时操作，这里介绍的变量赋值是变量展开时应用，并且不会插入空格</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">B_append &#x3D; &quot; additional data&quot;</span><br><span class="line">C &#x3D; &quot;cval&quot;</span><br><span class="line">C_prepend &#x3D; &quot;additional data &quot;</span><br><span class="line">D &#x3D; &quot;dval&quot;</span><br><span class="line">D_append &#x3D; &quot;additional data&quot;</span><br></pre></td></tr></table></figure>
-<p>变量B值为 “bvaladditionaldata” ，变量C值为 “testcval”.</p>
-<p>g. Removal (Override Style Syntax)<br>同样，bitbake提供Override Style Syntax来移除某些变量值。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">FOO &#x3D; &quot;123 456 789 123456 123 456 123 456&quot;</span><br><span class="line">FOO_remove &#x3D; &quot;123&quot;</span><br><span class="line">FOO_remove &#x3D; &quot;456&quot;</span><br><span class="line">FOO2 &#x3D; &quot; abc def ghi abcdef abc def abc def def&quot;</span><br><span class="line">FOO2_remove &#x3D; &quot;\</span><br><span class="line">    def \</span><br><span class="line">    abc \</span><br><span class="line">    ghi \</span><br><span class="line">    &quot;</span><br></pre></td></tr></table></figure>
-<p>变量FOO变成 “789 123456”，变量FOO2变成 “abcdef”。<br>像”_append “和”_prepend “一样，”_remove “为非即时操作，而是在变量扩展时应用。</p>
-<p>h. 解除变量的设置(unset)<br>使用unset来删除变量：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"># 删除变量DATE</span><br><span class="line">unset DATE</span><br></pre></td></tr></table></figure></p>
-<h2 id="共享功能"><a href="#共享功能" class="headerlink" title="共享功能"></a>共享功能</h2><p><a target="_blank" rel="noopener" href="https://docs.yoctoproject.org/bitbake/bitbake-user-manual/bitbake-user-manual-metadata.html#sharing-functionality">https://docs.yoctoproject.org/bitbake/bitbake-user-manual/bitbake-user-manual-metadata.html#sharing-functionality</a><br>后面抽空补上</p>
-<h2 id="Functions"><a href="#Functions" class="headerlink" title="Functions"></a>Functions</h2><p><a target="_blank" rel="noopener" href="https://docs.yoctoproject.org/bitbake/bitbake-user-manual/bitbake-user-manual-metadata.html#functions">https://docs.yoctoproject.org/bitbake/bitbake-user-manual/bitbake-user-manual-metadata.html#functions</a><br>后面抽空补上</p>
-<h2 id="Tasks"><a href="#Tasks" class="headerlink" title="Tasks"></a>Tasks</h2><p><a target="_blank" rel="noopener" href="https://docs.yoctoproject.org/bitbake/bitbake-user-manual/bitbake-user-manual-metadata.html#tasks">https://docs.yoctoproject.org/bitbake/bitbake-user-manual/bitbake-user-manual-metadata.html#tasks</a><br>后面补上</p>
-<h1 id="5-How-to-add-the-layer-and-recipe"><a href="#5-How-to-add-the-layer-and-recipe" class="headerlink" title="5. How to add the layer and recipe"></a>5. How to add the layer and recipe</h1><p>meta layer有很多开源的项目，各大厂家有提供自己的meta layer（高通:meta-qcom, TI:meta-ti, Intel：meta-intel ARM:meta-arm 等等），有时候我们可能会使用到一些第三方的meta layer，那么就需要手动添加这些 meta layer,有2种方法，如下：</p>
-<h2 id="手动添加第三方-meta-layer"><a href="#手动添加第三方-meta-layer" class="headerlink" title="手动添加第三方 meta layer"></a>手动添加第三方 meta layer</h2><ol>
-<li>下载需要的meta layer 到poky目录：<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">poky$ git clone git@github.com:meta-qt5&#x2F;meta-qt5.git</span><br></pre></td></tr></table></figure></li>
-<li><p>切换 meta-qt5 到合适poky的版本：<br> a.在meta/conf/layer.conf文件中查找如下属性，确定poky版本</p>
- <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">LAYERSERIES_CORENAMES &#x3D; &quot;dunfell&quot; #yocto版本名</span><br></pre></td></tr></table></figure>
-<p> b.在master分支中，查看meta-qt5/conf/layer.conf文件内容如下,说明是兼容yocto的当前版本的</p>
- <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">...</span><br><span class="line">LAYERSERIES_COMPAT_qt5-layer &#x3D; &quot;dunfell gatesgarth hardknott&quot;</span><br><span class="line">...</span><br></pre></td></tr></table></figure>
-<p> c.如果master分支不兼容yocto版本，需要切换为支持当前yocto版本的分支。</p>
-</li>
-<li><p>添加meta-qt5:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">poky$ source oe-init-build-env</span><br><span class="line">...</span><br><span class="line">build$ bitbake-layers add-layer ..&#x2F;meta-qt5</span><br></pre></td></tr></table></figure>
-<h2 id="自动添加第三方-meta-layer"><a href="#自动添加第三方-meta-layer" class="headerlink" title="自动添加第三方 meta layer"></a>自动添加第三方 meta layer</h2></li>
-</ol>
-<p>如下命令会自行在 <a target="_blank" rel="noopener" href="http://layers.openembedded.org/layerindex/branch/master/layers/">http://layers.openembedded.org/layerindex/branch/master/layers/</a> 网址中拉取 meta layer并添加该meta layer到项目中。<br>（如果目标meta layer有依赖，该命令会同时添加所依赖的meta layer）<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">poky$ source oe-init-build-env</span><br><span class="line">build$ bitbake-layers layerindex-fetch meta-qt5</span><br></pre></td></tr></table></figure></p>
-<h2 id="创建自己的layer"><a href="#创建自己的layer" class="headerlink" title="创建自己的layer"></a>创建自己的layer</h2><p>对于当前项目中没有合适的meta layer，这种情况我们可能需要新建自己的layer，方法如下:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line">poky$ source oe-init-build-env</span><br><span class="line"></span><br><span class="line"># 在上级目录 poky 中创建 meta-test-layer 目录</span><br><span class="line">build$ bitbake-layers create-layer ..&#x2F;meta-test-layer</span><br><span class="line">NOTE: Starting bitbake server...</span><br><span class="line"></span><br><span class="line"># 把 poky&#x2F;meta-test-layer 添加到项目中</span><br><span class="line">build$ bitbake-layers add-layer ..&#x2F;meta-test-layer</span><br><span class="line">NOTE: Starting bitbake server...</span><br><span class="line"></span><br><span class="line"># 查看目前有哪些meta layer</span><br><span class="line">build$ bitbake-layers show-layers</span><br><span class="line">NOTE: Starting bitbake server...</span><br><span class="line">layer                 path                                      priority</span><br><span class="line">&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;</span><br><span class="line">meta                  &#x2F;home&#x2F;user&#x2F;host&#x2F;code&#x2F;poky&#x2F;poky&#x2F;meta       5</span><br><span class="line">meta-poky             &#x2F;home&#x2F;user&#x2F;host&#x2F;code&#x2F;poky&#x2F;poky&#x2F;meta-poky  5</span><br><span class="line">meta-yocto-bsp        &#x2F;home&#x2F;user&#x2F;host&#x2F;code&#x2F;poky&#x2F;poky&#x2F;meta-yocto-bsp  5</span><br><span class="line">meta-test-layer       &#x2F;home&#x2F;user&#x2F;host&#x2F;code&#x2F;poky&#x2F;poky&#x2F;meta-test-layer  6</span><br><span class="line"></span><br><span class="line"># 查看添加的 meta-test-layer 有如下内容，里面包含了一个示例recipe,名字为example，该recipe仅仅在编译时打印字符串输出</span><br><span class="line">poky$ tree meta-test-layer&#x2F;</span><br><span class="line">meta-test-layer&#x2F;</span><br><span class="line">├── conf</span><br><span class="line">│   └── layer.conf</span><br><span class="line">├── COPYING.MIT</span><br><span class="line">├── README</span><br><span class="line">└── recipes-example</span><br><span class="line">    └── example</span><br><span class="line">        └── example_0.1.bb</span><br></pre></td></tr></table></figure></p>
-<h2 id="第一个recipe"><a href="#第一个recipe" class="headerlink" title="第一个recipe"></a>第一个recipe</h2><p>接下来我们将添加一个 hello-world recipe demo，分别使用Makefile，Autotools和Cmake 3种构建方式。<br>首先在 recipes-example 统计目录 新增 recipes-hello-world 目录。</p>
-<h3 id="Makefile-方式"><a href="#Makefile-方式" class="headerlink" title="Makefile 方式"></a>Makefile 方式</h3><ol>
-<li><p>构造demo源码:hello-world.c</p>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span> <span class="params">(<span class="keyword">int</span> argc, <span class="keyword">char</span> **argv)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">&quot;Hello World!\n&quot;</span>);</span><br><span class="line">        <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-</li>
-<li><p>编写相应的 Makefile</p>
-<figure class="highlight makefile"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">TARGET = hello-world-makefile-bin</span><br><span class="line">all := <span class="variable">$(TARGET)</span></span><br><span class="line">CFLAGS ?= -Wall -O</span><br><span class="line"></span><br><span class="line">OBJS = hello-world.o</span><br><span class="line"></span><br><span class="line"><span class="variable">$(TARGET)</span>: <span class="variable">$(OBJS)</span></span><br><span class="line">        <span class="variable">$(CC)</span> <span class="variable">$(CFLAGS)</span> <span class="variable">$(LDFLAGS)</span> <span class="variable">$^</span> -o <span class="variable">$@</span></span><br><span class="line"></span><br><span class="line"><span class="section">clean:</span></span><br><span class="line">        <span class="variable">$(RM)</span> <span class="variable">$(TARGET)</span> <span class="variable">$(OBJS)</span></span><br><span class="line"></span><br><span class="line"><span class="meta"><span class="meta-keyword">.PHONY</span>: all clean</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-</li>
-</ol>
-<p>3.编译hello-world-makefile.bb文件</p>
-<figure class="highlight makefile"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line">SUMMARY = <span class="string">&quot;helloworld of makefile recipe&quot;</span></span><br><span class="line">DESCRIPTION = <span class="string">&quot;My hello world application&quot;</span></span><br><span class="line">LICENSE = <span class="string">&quot;CLOSED&quot;</span></span><br><span class="line"></span><br><span class="line">FILESEXTRAPATHS_prepend := <span class="string">&quot;$&#123;THISDIR&#125;:&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 指定源文件路径</span></span><br><span class="line">SRC_URI = <span class="string">&quot;file://source-makefile \</span></span><br><span class="line"><span class="string">           &quot;</span></span><br><span class="line"><span class="comment"># 构建目录中解压后的配方源代码所在的位置</span></span><br><span class="line">S = <span class="string">&quot;$&#123;WORKDIR&#125;/source-makefile/&quot;</span></span><br><span class="line"></span><br><span class="line">CFLAGS_append = <span class="string">&quot;-Wall -O -g&quot;</span></span><br><span class="line"></span><br><span class="line">EXTRA_OEMAKE = <span class="string">&quot;&#x27;CC=$&#123;CC&#125;&#x27; &#x27;CFLAGS=$&#123;CFLAGS&#125;&#x27;&quot;</span></span><br><span class="line">EXTRA_OEMAKE_append = <span class="string">&quot; &#x27;LDFLAGS=$&#123;LDFLAGS&#125;&#x27;&quot;</span></span><br><span class="line">EXTRA_OEMAKE_append = <span class="string">&quot; &#x27;DESTDIR=$&#123;D&#125;&#x27;&quot;</span></span><br><span class="line"></span><br><span class="line">do_compile() &#123;</span><br><span class="line">    oe_runmake</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">do_install () &#123;</span><br><span class="line">    install -d $&#123;D&#125;$&#123;bindir&#125;/</span><br><span class="line">    install -m 0755 $&#123;S&#125;/hello-world-makefile-bin $&#123;D&#125;$&#123;bindir&#125;/</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">FILES_$&#123;PN&#125; = <span class="string">&quot;$&#123;bindir&#125;/&quot;</span></span><br></pre></td></tr></table></figure>
-<ol>
-<li>构建目录结构，可以看到我们在meta-test-layer中，我们添加了recipes-hello-world目录，在其中新添加了 hello-world-makefile 配方<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">poky$ tree meta-test-layer/recipes-hello-world/</span><br><span class="line">meta-test-layer/recipes-hello-world/</span><br><span class="line">└── hello-world-makefile</span><br><span class="line">    ├── hello-world-makefile.bb</span><br><span class="line">    └── source-makefile</span><br><span class="line">        ├── hello-world.c</span><br><span class="line">        └── Makefile</span><br><span class="line"></span><br><span class="line"><span class="number">2</span> directories, <span class="number">3</span> files</span><br></pre></td></tr></table></figure></li>
-<li>最后执行如下命令来编译 hello-world-makefile 配方。<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">poky$ source oe-init-build-env</span><br><span class="line">poky/build$ bitbake hello-world-makefile</span><br></pre></td></tr></table></figure></li>
-<li>最后我们来看下在build目录下，生成了哪些内容。<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">1.b</span>uild/sstate-cache目录，为共享状态缓存，编译后出出现很多如下文件</span><br><span class="line">build/sstate-cache/<span class="number">8b</span>/<span class="number">2</span>a/sstate:hello-world-makefile:core2<span class="number">-64</span>-poky-linux:<span class="number">1.0</span>:r0:core2<span class="number">-64</span>:<span class="number">3</span>:<span class="number">8b</span>2ad563f4d36563ec534b32d33870d0f563d6bd0584a09eedb83da339c763d0_populate_sysroot.tgz.siginfo</span><br><span class="line"></span><br><span class="line"><span class="number">2.b</span>uild/tmp/sysroots-components目录，该目录包含的内容是任务 do_prepare_recipe_sysroot 把在DEPENDS列出来的recipe link 或者 copy 到 recipe-specific sysroot</span><br><span class="line">build/tmp/sysroots-components/core2<span class="number">-64</span>/hello-world-makefile</span><br><span class="line">build/tmp/sysroots-components/core2<span class="number">-64</span>/hello-world-makefile/sysroot-providers/hello-world-makefile</span><br><span class="line"></span><br><span class="line"><span class="number">3.b</span>uild/tmp/stamps目录，bitbake通过该目录对应的文件来判断任务是否修改，从而在编译时重新编译该任务</span><br><span class="line">build/tmp/stamps/core2<span class="number">-64</span>-poky-linux/hello-world-makefile</span><br><span class="line"></span><br><span class="line"><span class="number">4.b</span>uild/tmp/sstate-control/目录：OpenEmbedded构建系统使用这个目录来保存共享状态清单文件</span><br><span class="line">build/tmp/sstate-control/manifest-core2<span class="number">-64</span>-hello-world-makefile.package_qa</span><br><span class="line">build/tmp/sstate-control/manifest-core2<span class="number">-64</span>-hello-world-makefile.deploy_source_date_epoch</span><br><span class="line">build/tmp/sstate-control/manifest-core2<span class="number">-64</span>-hello-world-makefile.populate_sysroot</span><br><span class="line">build/tmp/sstate-control/manifest-core2<span class="number">-64</span>-hello-world-makefile.package_write_rpm</span><br><span class="line">build/tmp/sstate-control/manifest-core2<span class="number">-64</span>-hello-world-makefile.populate_lic</span><br><span class="line">build/tmp/sstate-control/manifest-core2<span class="number">-64</span>-hello-world-makefile.package</span><br><span class="line">build/tmp/sstate-control/manifest-qemux86_64-hello-world-makefile.packagedata</span><br><span class="line"></span><br><span class="line"><span class="number">5.</span>$&#123;WORKDIR&#125;目录，OpenEmbedded构建系统构建配方的工作目录的路径名称，</span><br><span class="line"># 具体路径为 $&#123;TMPDIR&#125;/work/$&#123;MULTIMACH_TARGET_SYS&#125;/$&#123;PN&#125;/$&#123;EXTENDPE&#125;$&#123;PV&#125;-$&#123;PR&#125;。</span><br><span class="line">build/tmp/work/core2<span class="number">-64</span>-poky-linux/hello-world-makefile</span><br><span class="line"></span><br><span class="line"><span class="number">6.</span>在bb文件有指定：S = <span class="string">&quot;$&#123;WORKDIR&#125;/source-makefile/&quot;</span></span><br><span class="line">构建目录中解压后的配方源代码所在的位置，hello-world-makefile-bin也生成在该目录</span><br><span class="line">build/tmp/work/core2<span class="number">-64</span>-poky-linux/hello-world-makefile/<span class="number">1.0</span>-r0/source-makefile/hello-world-makefile-bin</span><br><span class="line"></span><br><span class="line"><span class="number">7.</span>$&#123;WORKDIR&#125;/package目录，do_package任务的输出，该输出还没有被分割为独立的package</span><br><span class="line">build/tmp/work/core2<span class="number">-64</span>-poky-linux/hello-world-makefile/<span class="number">1.0</span>-r0/package/usr/src/debug/hello-world-makefile</span><br><span class="line">build/tmp/work/core2<span class="number">-64</span>-poky-linux/hello-world-makefile/<span class="number">1.0</span>-r0/package/usr/bin/hello-world-makefile-bin</span><br><span class="line">build/tmp/work/core2<span class="number">-64</span>-poky-linux/hello-world-makefile/<span class="number">1.0</span>-r0/package/usr/bin/.debug/hello-world-makefile-bin</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="number">8.</span>$&#123;WORKDIR&#125;/package目录,do_package任务的输出，该输出已经被分割为独立的package</span><br><span class="line">build/tmp/work/core2<span class="number">-64</span>-poky-linux/hello-world-makefile/<span class="number">1.0</span>-r0/packages-split/hello-world-makefile</span><br><span class="line">build/tmp/work/core2<span class="number">-64</span>-poky-linux/hello-world-makefile/<span class="number">1.0</span>-r0/packages-split/hello-world-makefile/usr/bin/hello-world-makefile-bin</span><br><span class="line">build/tmp/work/core2<span class="number">-64</span>-poky-linux/hello-world-makefile/<span class="number">1.0</span>-r0/packages-split/hello-world-makefile-src</span><br><span class="line">build/tmp/work/core2<span class="number">-64</span>-poky-linux/hello-world-makefile/<span class="number">1.0</span>-r0/packages-split/hello-world-makefile-src/usr/src/debug/hello-world-makefile</span><br><span class="line">build/tmp/work/core2<span class="number">-64</span>-poky-linux/hello-world-makefile/<span class="number">1.0</span>-r0/packages-split/hello-world-makefile-doc</span><br><span class="line">build/tmp/work/core2<span class="number">-64</span>-poky-linux/hello-world-makefile/<span class="number">1.0</span>-r0/packages-split/hello-world-makefile-locale</span><br><span class="line">build/tmp/work/core2<span class="number">-64</span>-poky-linux/hello-world-makefile/<span class="number">1.0</span>-r0/packages-split/hello-world-makefile-dev</span><br><span class="line">build/tmp/work/core2<span class="number">-64</span>-poky-linux/hello-world-makefile/<span class="number">1.0</span>-r0/packages-split/hello-world-makefile-staticdev</span><br><span class="line">build/tmp/work/core2<span class="number">-64</span>-poky-linux/hello-world-makefile/<span class="number">1.0</span>-r0/packages-split/hello-world-makefile.shlibdeps</span><br><span class="line">build/tmp/work/core2<span class="number">-64</span>-poky-linux/hello-world-makefile/<span class="number">1.0</span>-r0/packages-split/hello-world-makefile-dbg</span><br><span class="line">build/tmp/work/core2<span class="number">-64</span>-poky-linux/hello-world-makefile/<span class="number">1.0</span>-r0/packages-split/hello-world-makefile-dbg/usr/bin/.debug/hello-world-makefile-bin</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="number">9.</span>$&#123;WORKDIR&#125;/pkgdata目录,指向do_package任务保存软件包元数据的临时工作区。</span><br><span class="line">build/tmp/work/core2<span class="number">-64</span>-poky-linux/hello-world-makefile/<span class="number">1.0</span>-r0/pkgdata/hello-world-makefile</span><br><span class="line">build/tmp/work/core2<span class="number">-64</span>-poky-linux/hello-world-makefile/<span class="number">1.0</span>-r0/pkgdata/runtime-reverse/hello-world-makefile</span><br><span class="line">build/tmp/work/core2<span class="number">-64</span>-poky-linux/hello-world-makefile/<span class="number">1.0</span>-r0/pkgdata/runtime-reverse/hello-world-makefile-src</span><br><span class="line">build/tmp/work/core2<span class="number">-64</span>-poky-linux/hello-world-makefile/<span class="number">1.0</span>-r0/pkgdata/runtime-reverse/hello-world-makefile-dev</span><br><span class="line">build/tmp/work/core2<span class="number">-64</span>-poky-linux/hello-world-makefile/<span class="number">1.0</span>-r0/pkgdata/runtime-reverse/hello-world-makefile-dbg</span><br><span class="line">build/tmp/work/core2<span class="number">-64</span>-poky-linux/hello-world-makefile/<span class="number">1.0</span>-r0/pkgdata/runtime/hello-world-makefile</span><br><span class="line">build/tmp/work/core2<span class="number">-64</span>-poky-linux/hello-world-makefile/<span class="number">1.0</span>-r0/pkgdata/runtime/hello-world-makefile-dbg.packaged</span><br><span class="line">build/tmp/work/core2<span class="number">-64</span>-poky-linux/hello-world-makefile/<span class="number">1.0</span>-r0/pkgdata/runtime/hello-world-makefile-src</span><br><span class="line">build/tmp/work/core2<span class="number">-64</span>-poky-linux/hello-world-makefile/<span class="number">1.0</span>-r0/pkgdata/runtime/hello-world-makefile.packaged</span><br><span class="line">build/tmp/work/core2<span class="number">-64</span>-poky-linux/hello-world-makefile/<span class="number">1.0</span>-r0/pkgdata/runtime/hello-world-makefile-doc</span><br><span class="line">build/tmp/work/core2<span class="number">-64</span>-poky-linux/hello-world-makefile/<span class="number">1.0</span>-r0/pkgdata/runtime/hello-world-makefile-locale</span><br><span class="line">build/tmp/work/core2<span class="number">-64</span>-poky-linux/hello-world-makefile/<span class="number">1.0</span>-r0/pkgdata/runtime/hello-world-makefile-dev</span><br><span class="line">build/tmp/work/core2<span class="number">-64</span>-poky-linux/hello-world-makefile/<span class="number">1.0</span>-r0/pkgdata/runtime/hello-world-makefile-staticdev</span><br><span class="line">build/tmp/work/core2<span class="number">-64</span>-poky-linux/hello-world-makefile/<span class="number">1.0</span>-r0/pkgdata/runtime/hello-world-makefile-dev.packaged</span><br><span class="line">build/tmp/work/core2<span class="number">-64</span>-poky-linux/hello-world-makefile/<span class="number">1.0</span>-r0/pkgdata/runtime/hello-world-makefile-src.packaged</span><br><span class="line">build/tmp/work/core2<span class="number">-64</span>-poky-linux/hello-world-makefile/<span class="number">1.0</span>-r0/pkgdata/runtime/hello-world-makefile-dbg</span><br><span class="line"></span><br><span class="line"><span class="number">10.</span>$&#123;WORKDIR&#125;/image目录,包含do_install任务的输出，与该任务中的$&#123;D&#125;变量相对应。</span><br><span class="line">build/tmp/work/core2<span class="number">-64</span>-poky-linux/hello-world-makefile/<span class="number">1.0</span>-r0/image/usr/bin/hello-world-makefile-bin</span><br><span class="line"></span><br><span class="line"><span class="number">11.</span>$&#123;WORKDIR&#125;/sysroot-destdirmulu ,包含do_populate_sysroot任务的输出。</span><br><span class="line">build/tmp/work/core2<span class="number">-64</span>-poky-linux/hello-world-makefile/<span class="number">1.0</span>-r0/sysroot-destdir/sysroot-providers/hello-world-makefile</span><br><span class="line"></span><br><span class="line"><span class="number">12.</span>DEPLOY_DIR变量指向build/tmp/deploy/目录，此目录包含OpenEmbedded构建过程中的任何 <span class="string">&quot;最终结果 &quot;</span>输出。</span><br><span class="line">build/tmp/deploy/rpm/这个目录接收由构建过程产生的任何 .rpm 包。这些软件包会被分类到不同架构类型的feeds中。</span><br><span class="line">build/tmp/deploy/rpm/core2_64/hello-world-makefile-src<span class="number">-1.0</span>-r0.core2_64.rpm</span><br><span class="line">build/tmp/deploy/rpm/core2_64/hello-world-makefile<span class="number">-1.0</span>-r0.core2_64.rpm</span><br><span class="line">build/tmp/deploy/rpm/core2_64/hello-world-makefile-dev<span class="number">-1.0</span>-r0.core2_64.rpm</span><br><span class="line">build/tmp/deploy/rpm/core2_64/hello-world-makefile-dbg<span class="number">-1.0</span>-r0.core2_64.rpm</span><br><span class="line"></span><br><span class="line">对其中一个rpm进行解压，目录结构如下,可以看到生成产物/usr/bin/hello-world-makefile-bin.</span><br><span class="line">├── hello-world-makefile<span class="number">-1.0</span>-r0.core2_64</span><br><span class="line">│   └── usr</span><br><span class="line">│       └── bin</span><br><span class="line">│           └── hello-world-makefile-bin</span><br><span class="line">└── hello-world-makefile<span class="number">-1.0</span>-r0.core2_64.cpio</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="number">13.</span>$&#123;STAGING_DIR_HOST&#125;/pkgdata目录</span><br><span class="line">指向一个共享的、全局状态的目录，该目录保存着打包过程中产生的数据。在打包过程中，do_packagedata任务为每个配方打包数据并将其安装到这个临时的共享区域。</span><br><span class="line">build/tmp/pkgdata/qemux86<span class="number">-64</span>/hello-world-makefile</span><br><span class="line">build/tmp/pkgdata/qemux86<span class="number">-64</span>/runtime-reverse/hello-world-makefile</span><br><span class="line">build/tmp/pkgdata/qemux86<span class="number">-64</span>/runtime-reverse/hello-world-makefile-src</span><br><span class="line">build/tmp/pkgdata/qemux86<span class="number">-64</span>/runtime-reverse/hello-world-makefile-dev</span><br><span class="line">build/tmp/pkgdata/qemux86<span class="number">-64</span>/runtime-reverse/hello-world-makefile-dbg</span><br><span class="line">build/tmp/pkgdata/qemux86<span class="number">-64</span>/runtime/hello-world-makefile-src</span><br><span class="line">build/tmp/pkgdata/qemux86<span class="number">-64</span>/runtime/hello-world-makefile-src.packaged</span><br><span class="line">build/tmp/pkgdata/qemux86<span class="number">-64</span>/runtime/hello-world-makefile-dbg</span><br><span class="line">build/tmp/pkgdata/qemux86<span class="number">-64</span>/runtime/hello-world-makefile-dbg.packaged</span><br><span class="line">build/tmp/pkgdata/qemux86<span class="number">-64</span>/runtime/hello-world-makefile-staticdev</span><br><span class="line">build/tmp/pkgdata/qemux86<span class="number">-64</span>/runtime/hello-world-makefile-dev</span><br><span class="line">build/tmp/pkgdata/qemux86<span class="number">-64</span>/runtime/hello-world-makefile-dev.packaged</span><br><span class="line">build/tmp/pkgdata/qemux86<span class="number">-64</span>/runtime/hello-world-makefile-doc</span><br><span class="line">build/tmp/pkgdata/qemux86<span class="number">-64</span>/runtime/hello-world-makefile-locale</span><br><span class="line">build/tmp/pkgdata/qemux86<span class="number">-64</span>/runtime/hello-world-makefile</span><br><span class="line">build/tmp/pkgdata/qemux86<span class="number">-64</span>/runtime/hello-world-makefile.packaged</span><br></pre></td></tr></table></figure>
-</li>
-</ol>
-<h3 id="Autotools-方式"><a href="#Autotools-方式" class="headerlink" title="Autotools 方式"></a>Autotools 方式</h3><ol>
-<li>构造demo源码:hello-world.c<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span> <span class="params">(<span class="keyword">int</span> argc, <span class="keyword">char</span> **argv)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">&quot;Hello World with using autotools \n&quot;</span>);</span><br><span class="line">        <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-</li>
-</ol>
-<ol>
-<li>编写configure.ac和编写Makefile.am文件<br>configure.ac:<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">#                                               -*- Autoconf -*-</span><br><span class="line"># Process <span class="keyword">this</span> file with autoconf to produce a configure script.</span><br><span class="line"></span><br><span class="line">AC_PREREQ([<span class="number">2.69</span>])</span><br><span class="line">#AC_INIT([FULL-PACKAGE-NAME], [VERSION], [BUG-REPORT-ADDRESS])</span><br><span class="line">AC_INIT(hello-world-autotoos-bin, <span class="number">1.0</span>)</span><br><span class="line">AM_INIT_AUTOMAKE(hello-world-autotoos-bin, <span class="number">1.0</span>)</span><br><span class="line">AC_CONFIG_SRCDIR([hello-world.c])</span><br><span class="line">AC_CONFIG_HEADERS([config.h])</span><br><span class="line"></span><br><span class="line"># Checks <span class="keyword">for</span> programs.</span><br><span class="line">AC_PROG_CC</span><br><span class="line"></span><br><span class="line"># Checks <span class="keyword">for</span> libraries.</span><br><span class="line"></span><br><span class="line"># Checks <span class="keyword">for</span> header files.</span><br><span class="line">AC_CHECK_HEADERS([stdlib.h])</span><br><span class="line"></span><br><span class="line"># Checks <span class="keyword">for</span> typedefs, structures, <span class="keyword">and</span> compiler characteristics.</span><br><span class="line"></span><br><span class="line"># Checks <span class="keyword">for</span> library functions.</span><br><span class="line">AC_CONFIG_FILES([Makefile])</span><br><span class="line">AC_OUTPUT</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-Makefile.am:<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">AUTOMAKE_OPTIONS&#x3D;foreign</span><br><span class="line">bin_PROGRAMS&#x3D; hello-world-autotools-bin</span><br><span class="line">hello_world_autotools_bin_SOURCES&#x3D; hello-world.c</span><br></pre></td></tr></table></figure>
-</li>
-</ol>
-<p>注：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">我们一般使用autotools配套的如下工具，来一步一步的生成配置文件和Makefile，</span><br><span class="line">autoscan,aclocal,autoconf,autoheader,automake .&#x2F;configure</span><br><span class="line">验证Makefile没有问题后，删除掉其中的很多中间配置文件，只需要留configure.ac 和 Makefile.am即可。</span><br></pre></td></tr></table></figure></p>
-<p>3.编译hello-world-autotools.bb文件<br><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">SUMMARY = <span class="string">&quot;helloworld of autotools recipe&quot;</span></span><br><span class="line">DESCRIPTION = <span class="string">&quot;My hello world application with using the autotools&quot;</span></span><br><span class="line">LICENSE = <span class="string">&quot;CLOSED&quot;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">inherit autotools</span><br><span class="line">FILESEXTRAPATHS_prepend := <span class="string">&quot;$&#123;THISDIR&#125;:&quot;</span></span><br><span class="line"></span><br><span class="line"># 指定源文件路径</span><br><span class="line">SRC_URI = <span class="string">&quot;file://source-autotools \</span></span><br><span class="line"><span class="string">           &quot;</span></span><br><span class="line"># 构建目录中解压后的配方源代码所在的位置</span><br><span class="line">S = <span class="string">&quot;$&#123;WORKDIR&#125;/source-autotools&quot;</span></span><br><span class="line"></span><br><span class="line"># autotools class自动执行了如下类似的操作，并且生成的bin并没有存放在$&#123;S&#125;中</span><br><span class="line"># do_install_append () &#123;</span><br><span class="line">#     install -d $&#123;D&#125;$&#123;bindir&#125;/</span><br><span class="line">#     install -m <span class="number">0755</span> $&#123;S&#125;/hello-world-autotools-bin $&#123;D&#125;$&#123;bindir&#125;/</span><br><span class="line"></span><br><span class="line"># &#125;</span><br><span class="line"></span><br><span class="line">FILES_$&#123;PN&#125; = <span class="string">&quot;$&#123;bindir&#125;/&quot;</span></span><br></pre></td></tr></table></figure></p>
-<ol>
-<li>构建目录结构，我们在recipes-hello-world目录下，即hello-world-makefile 配方的同级目录，添加了hello-world-autotools 配方<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">poky$ tree meta-test-layer&#x2F;recipes-hello-world&#x2F;</span><br><span class="line">meta-test-layer&#x2F;recipes-hello-world&#x2F;</span><br><span class="line">├── hello-world-autotools</span><br><span class="line">│   ├── hello-world-autotools.bb</span><br><span class="line">│   └── source-autotools</span><br><span class="line">│       ├── configure.ac</span><br><span class="line">│       ├── hello-world.c</span><br><span class="line">│       └── Makefile.am</span><br><span class="line">└── hello-world-makefile</span><br><span class="line"></span><br><span class="line">4 directories, 7 files</span><br><span class="line"></span><br></pre></td></tr></table></figure></li>
-<li>最后执行如下命令来编译 hello-world-autotools 配方，可以在build看到，生成的内容和hello-world-makefile 配方基本一直，这里不展开说明了。<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">poky$ source oe-init-build-env</span><br><span class="line">poky&#x2F;build$ bitbake hello-world-makefile</span><br></pre></td></tr></table></figure>
-</li>
-</ol>
-<h3 id="Cmake方式"><a href="#Cmake方式" class="headerlink" title="Cmake方式"></a>Cmake方式</h3><ol>
-<li>构造demo源码:hello-world.c<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span> <span class="params">(<span class="keyword">int</span> argc, <span class="keyword">char</span> **argv)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">&quot;Hello World with using cmake \n&quot;</span>);</span><br><span class="line">        <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-</li>
-</ol>
-<ol>
-<li>编写 CMakeLists.txt 文件<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">include(GNUInstallDirs)</span><br><span class="line"></span><br><span class="line">cmake_minimum_required(VERSION 3.5.1)</span><br><span class="line"></span><br><span class="line">project(hello_world_cmake C)</span><br><span class="line"></span><br><span class="line">add_executable (hello-world-cmake-bin &quot;hello-world.c&quot;)</span><br><span class="line"></span><br><span class="line">INSTALL(TARGETS hello-world-cmake-bin</span><br><span class="line">  RUNTIME DESTINATION $&#123;CMAKE_INSTALL_BINDIR&#125;</span><br><span class="line">)</span><br></pre></td></tr></table></figure></li>
-<li><p>执行cmake &amp; make 生成 hello-world-cmake-bin 并测试pass，删除测试相关文件</p>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">hello-world-cmake/source-cmake$ mkdir build/</span><br><span class="line">hello-world-cmake/source-cmake$ cd build/</span><br><span class="line">hello-world-cmake/source-cmake/build$ cmake ../</span><br><span class="line">-- The C compiler identification is GNU <span class="number">7.5</span><span class="number">.0</span></span><br><span class="line">-- Check <span class="keyword">for</span> working C compiler: /usr/bin/cc</span><br><span class="line">-- Check <span class="keyword">for</span> working C compiler: /usr/bin/cc -- works</span><br><span class="line">-- Detecting C compiler ABI info</span><br><span class="line">-- Detecting C compiler ABI info - done</span><br><span class="line">-- Detecting C compile features</span><br><span class="line">-- Detecting C compile features - done</span><br><span class="line">-- Configuring done</span><br><span class="line">-- Generating done</span><br><span class="line">-- Build files have been written to: /home/user/host/code/poky/poky/meta-test-layer/recipes-hello-world/hello-world-cmake/source-cmake/build</span><br><span class="line">hello-world-cmake/source-cmake/build$ make</span><br><span class="line">Scanning dependencies of target hello-world-cmake-bin</span><br><span class="line">[ <span class="number">50</span>%] Building C object CMakeFiles/hello-world-cmake-bin.dir/hello-world.c.o</span><br><span class="line">[<span class="number">100</span>%] Linking C executable hello-world-cmake-bin</span><br><span class="line">[<span class="number">100</span>%] Built target hello-world-cmake-bin</span><br><span class="line">hello-world-cmake/source-cmake/build$ ./hello-world-cmake-bin</span><br><span class="line">Hello World with <span class="keyword">using</span> cmake</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>编译hello-world-cmake.bb文件</p>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">SUMMARY = <span class="string">&quot;helloworld of cmake recipe&quot;</span></span><br><span class="line">DESCRIPTION = <span class="string">&quot;My hello world application with using the cmake&quot;</span></span><br><span class="line">LICENSE = <span class="string">&quot;CLOSED&quot;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">inherit cmake</span><br><span class="line">FILESEXTRAPATHS_prepend := <span class="string">&quot;$&#123;THISDIR&#125;:&quot;</span></span><br><span class="line"></span><br><span class="line"># 指定源文件路径</span><br><span class="line">SRC_URI = <span class="string">&quot;file://source-cmake \</span></span><br><span class="line"><span class="string">           &quot;</span></span><br><span class="line"># 构建目录中解压后的配方源代码所在的位置</span><br><span class="line">S = <span class="string">&quot;$&#123;WORKDIR&#125;/source-cmake&quot;</span></span><br><span class="line"></span><br><span class="line"># cmake class自动执行了如下类似的操作，并且生成的bin并没有在$&#123;S&#125;中</span><br><span class="line"># do_install_append () &#123;</span><br><span class="line">#     install -d $&#123;D&#125;$&#123;bindir&#125;/</span><br><span class="line">#     install -m <span class="number">0755</span> $&#123;S&#125;/hello-world-cmake-bin $&#123;D&#125;$&#123;bindir&#125;/</span><br><span class="line"></span><br><span class="line"># &#125;</span><br><span class="line"></span><br><span class="line">FILES_$&#123;PN&#125; = <span class="string">&quot;$&#123;bindir&#125;/&quot;</span></span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-</li>
-<li><p>构建目录结构，我们在recipes-hello-world目录下，即hello-world-makefile 配方的同级目录，添加了hello-world-cmake 配方</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;poky$  tree meta-test-layer&#x2F;recipes-hello-world&#x2F;</span><br><span class="line">meta-test-layer&#x2F;recipes-hello-world&#x2F;</span><br><span class="line">├── hello-world-autotools</span><br><span class="line">│   ├── hello-world-autotools.bb</span><br><span class="line">│   └── source-autotools</span><br><span class="line">│       ├── configure.ac</span><br><span class="line">│       ├── hello-world.c</span><br><span class="line">│       └── Makefile.am</span><br><span class="line">├── hello-world-cmake</span><br><span class="line">└── hello-world-makefile</span><br><span class="line"></span><br><span class="line">6 directories, 11 files</span><br></pre></td></tr></table></figure></li>
-<li>最后执行如下命令来编译 hello-world-cmake 配方，可以在build看到，生成的内容和hello-world-makefile 配方基本一直，这里不展开说明了。<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">poky$ source oe-init-build-env</span><br><span class="line">poky&#x2F;build$ bitbake hello-world-cmake</span><br></pre></td></tr></table></figure>
-</li>
-</ol>
-<p><strong>常用全局变量</strong></p>
-<ol>
-<li>SRC_URI<br>源文件列表 - 本地或远程。 此变量告诉 OpenEmbedded 构建系统在哪里拉取源文件以及如何拉取它们。</li>
-</ol>
-<p>下面列出2个最最最常用的 URI protocols：</p>
-<ul>
-<li><p>file:// —-&gt; 从本地机器获取文件，通常是元数据附带的文件（例如补丁文件）。 该路径是相对于 FILESPATH  变量的。 因此，构建系统按顺序从以下目录中搜索，这些目录假定为配方文件 (.bb) 或附加文件 (.bbappend) 所在目录的子目录：</p>
-<ul>
-<li><p>${BPN}：没有任何特殊后缀或版本号的基本配方名称。</p>
-</li>
-<li><p>${BP}：即${BPN}-${PV}. 基本配方名称和版本，但没有任何特殊的包名称后缀。</p>
-</li>
-<li><p>files：与与配方或附加文件同一级目录下面的Files目录</p>
-</li>
-</ul>
-</li>
-<li><p>git:// —-&gt; 从 Git 版本控制存储库中获取文件。</p>
-</li>
-</ul>
-<ol>
-<li>recipe 相关</li>
-</ol>
-<ul>
-<li>PN：配方名称或者生成的包的名称<ul>
-<li>1.指的是recipe最基本的名称，如果配方被命名为expat_2.0.1.bb，那么PN的默认值将是 “expat”。</li>
-<li>2.指的是OpenEmbedded构建系统创建或生产的文件中的软件包名称。</li>
-</ul>
-</li>
-<li>PV：配方的版本，版本通常是从配方的文件名中提取的。如果配方名为expat_2.0.1.bb，那么PV的默认值将是 “2.0.1”</li>
-<li>BPN：PN变量的一个版本，删除了常见的前缀和后缀，例如nativesdk-，-cross，-native等等。</li>
-<li>BP：基本配方名称和版本，但没有任何特殊的配方名称后缀（即-native，lib64-，等等）。BP由以下部分组成。${BPN}-${PV}</li>
-</ul>
-<ol>
-<li>TOPDIR<br>顶层的构建目录。当你使用oe-init-build-env初始化你的构建环境时，BitBake自动设置这个变量。<br>Epoch 项目 apps_proc/build-qti-distro-ubuntu-fullstack-debug/<br>Poky开源项目 poky/build/</li>
-</ol>
-<ol>
-<li><p>THISDIR<br>BitBake目前正在解析的文件所在的目录。不要手动设置这个变量。</p>
-</li>
-<li><p>TMPDIR<br>这个变量是OpenEmbedded构建系统用于所有构建输出和中间文件（除了共享状态缓存）的基础目录。默认情况下，TMPDIR变量指向Source Directory的tmp目录<br>apps_proc/build-qti-distro-ubuntu-fullstack-debug/tmp-glibc/</p>
-</li>
-<li><p>WORKDIR<br>OpenEmbedded构建系统构建配方的工作目录的路径名称。这个目录位于TMPDIR目录结构中，并且是特定于正在构建的配方和正在构建的系统。</p>
-</li>
-</ol>
-<p>WORKDIR目录定义如下。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$&#123;TMPDIR&#125;&#x2F;work&#x2F;$&#123;MULTIMACH_TARGET_SYS&#125;&#x2F;$&#123;PN&#125;&#x2F;$&#123;EXTENDPE&#125;$&#123;PV&#125;-$&#123;PR&#125;。</span><br></pre></td></tr></table></figure></p>
-<p>实际的目录取决于如下宏定义。</p>
-<p>TMPDIR：top-levle的构建输出目录<br>MULTIMACH_TARGET_SYS: 目标系统标识符，即对应的机器类型<br>PN：配方名称<br>EXTENDPE:  The epoch - (if PE is not specified, which is usually the case for most recipes, then EXTENDPE is blank)<br>PV：配方版本<br>PR。配方修订版<br>作为一个例子，假设源目录的顶级文件夹名为poky，默认的构建目录为poky/build，目标系统为qemux86-poky-linux机器。此外，假设你的配方被命名为foo_1.3.0-r0.bb。在这种情况下，构建系统用来构建软件包的工作目录将是如下。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">poky&#x2F;build&#x2F;tmp&#x2F;work&#x2F;qemux86-poky-linux&#x2F;foo&#x2F;1.3.0-r0</span><br></pre></td></tr></table></figure></p>
-<ol>
-<li>S<br>构建目录中未打包的配方源代码所在的位置。默认情况下，该目录为${WORKDIR}/${BPN}-${PV}，其中${BPN}是基本配方名称，${PV}是配方版本。如果源码压缩包将代码提取到${BPN}-${PV}以外的目录，或者源码是从SCM（如Git或Subversion）获取的，那么你必须在配方中设置S，以便OpenEmbedded构建系统知道在哪里找到解压后的源码。</li>
-</ol>
-<p>作为一个例子，假设 Source Directory 顶层为poky，Build irectory目录在poky/build，配方为db。在这种情况下，构建系统用来保存db的解压配方的工作目录是这样的。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">poky&#x2F;build&#x2F;tmp&#x2F;work&#x2F;qemux86-poky-linux&#x2F;db&#x2F;5.1.19-r3&#x2F;db-5.1.19</span><br></pre></td></tr></table></figure></p>
-<p>解压后的源代码位于db-5.1.19文件夹中。</p>
-<p>接下来的例子假设了一个 Git 仓库。默认情况下，Git 仓库在 do_fetch 过程中会被克隆到 ${WORKDIR}/git。由于这个路径与S的默认值不同，你必须特别设置，以便能找到源。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">SRC_URI &#x3D; &quot;git:&#x2F;&#x2F;path&#x2F;to&#x2F;repo.git&quot;</span><br><span class="line">S &#x3D; &quot;$&#123;WORKDIR&#125;&#x2F;git&quot;</span><br><span class="line"></span><br></pre></td></tr></table></figure></p>
-<ol>
-<li>D<br>目标目录。构建目录中组件被do_install任务安装的位置。该位置默认为:<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$&#123;WORKDIR&#125;&#x2F;image</span><br></pre></td></tr></table></figure>
-</li>
-</ol>
-<h1 id="6-devtool-调试的神"><a href="#6-devtool-调试的神" class="headerlink" title="6. devtool 调试的神"></a>6. devtool 调试的神</h1><p>yocto project包含了一些便于我们构建的工具，这里只介绍devtool。</p>
-<h3 id="devtool-是什么"><a href="#devtool-是什么" class="headerlink" title="devtool 是什么"></a>devtool 是什么</h3><p>devtool命令行工具提供了许多功能，帮助你构建、测试和打包软件，这个命令与bitbake命令一起使用。<br>我们可以通过如下命令来查看devtool的基本用法：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br></pre></td><td class="code"><pre><span class="line">user@xxx:~&#x2F;host&#x2F;code&#x2F;poky&#x2F;poky&#x2F;build$ devtool --help</span><br><span class="line">NOTE: Starting bitbake server...</span><br><span class="line">usage: devtool [--basepath BASEPATH] [--bbpath BBPATH] [-d] [-q]</span><br><span class="line">               [--color COLOR] [-h]</span><br><span class="line">               &lt;subcommand&gt; ...</span><br><span class="line"></span><br><span class="line">OpenEmbedded development tool</span><br><span class="line"></span><br><span class="line">options:</span><br><span class="line">  --basepath BASEPATH   Base directory of SDK &#x2F; build directory</span><br><span class="line">  --bbpath BBPATH       Explicitly specify the BBPATH, rather than getting it</span><br><span class="line">                        from the metadata</span><br><span class="line">  -d, --debug           Enable debug output</span><br><span class="line">  -q, --quiet           Print only errors</span><br><span class="line">  --color COLOR         Colorize output (where COLOR is auto, always, never)</span><br><span class="line">  -h, --help            show this help message and exit</span><br><span class="line"></span><br><span class="line">subcommands:</span><br><span class="line">  Beginning work on a recipe:</span><br><span class="line">    add                   Add a new recipe</span><br><span class="line">    modify                Modify the source for an existing recipe</span><br><span class="line">    upgrade               Upgrade an existing recipe</span><br><span class="line">  Getting information:</span><br><span class="line">    status                Show workspace status</span><br><span class="line">    search                Search available recipes</span><br><span class="line">    latest-version        Report the latest version of an existing recipe</span><br><span class="line">    check-upgrade-status  Report upgradability for multiple (or all) recipes</span><br><span class="line">  Working on a recipe in the workspace:</span><br><span class="line">    build                 Build a recipe</span><br><span class="line">    rename                Rename a recipe file in the workspace</span><br><span class="line">    edit-recipe           Edit a recipe file</span><br><span class="line">    find-recipe           Find a recipe file</span><br><span class="line">    configure-help        Get help on configure script options</span><br><span class="line">    update-recipe         Apply changes from external source tree to recipe</span><br><span class="line">    reset                 Remove a recipe from your workspace</span><br><span class="line">    finish                Finish working on a recipe in your workspace</span><br><span class="line">  Testing changes on target:</span><br><span class="line">    deploy-target         Deploy recipe output files to live target machine</span><br><span class="line">    undeploy-target       Undeploy recipe output files in live target machine</span><br><span class="line">    build-image           Build image including workspace recipe packages</span><br><span class="line">  Advanced:</span><br><span class="line">    create-workspace      Set up workspace in an alternative location</span><br><span class="line">    extract               Extract the source for an existing recipe</span><br><span class="line">    sync                  Synchronize the source tree for an existing recipe</span><br><span class="line">    import                Import exported tar archive into workspace</span><br><span class="line">    export                Export workspace into a tar archive</span><br><span class="line">    menuconfig            Alter build-time configuration for a recipe</span><br><span class="line">Use devtool &lt;subcommand&gt; --help to get help on a specific command</span><br><span class="line"></span><br></pre></td></tr></table></figure><br>可以看到它的每个功能都有一些子命令，我们通过如下命令来查看子功能的用法：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">devtool sub-command --help</span><br></pre></td></tr></table></figure><br>从如上说明中看到，devtool 工具有如下作用：</p>
-<ol>
-<li>新建一个recipe或者修改/更新一个存在的recipe</li>
-<li>获取recipes或者workspace的相关信息</li>
-<li>修改workspace中的recipes</li>
-<li>把相关修改点部署到设备验证功能</li>
-<li>其他高级功能</li>
-</ol>
-<p>devtool 在工作时不是直接在项目源码中进行工作，而是都会重新新建一个workspace目录环境，在该目录环境 Layer 中执行新建/修改等操作。</p>
-<h3 id="The-Workspace-Layer-Structure"><a href="#The-Workspace-Layer-Structure" class="headerlink" title="The Workspace Layer Structure"></a>The Workspace Layer Structure</h3><p>devtool 使用”Workspace” Layer 来完成构建。 该层并非特定于任何单个 devtool命令，而是整个工具中使用的公共工作区域。</p>
-<p>下图显示了工作区结构：<br><img src="/2021/06/30/Yocto-Build-System-Introduction/Yocto_Workspace_Layer_Structure.JPG" alt="Yocto_Workspace_Layer_Structure"></p>
-<h3 id="Adding-a-New-Recipe-to-the-Workspace-Layer-本地源码"><a href="#Adding-a-New-Recipe-to-the-Workspace-Layer-本地源码" class="headerlink" title="Adding a New Recipe to the Workspace Layer(本地源码)"></a>Adding a New Recipe to the Workspace Layer(本地源码)</h3><ol>
-<li><p>新建 devtool-hello-world 源码，copy的之前hello-world-cmake的源码，目录结构如下：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">user@d6ae2233aca6:~&#x2F;host&#x2F;code&#x2F;poky&#x2F;poky$ tree -L 1</span><br><span class="line">.</span><br><span class="line">├── bitbake</span><br><span class="line">├── build</span><br><span class="line">├── contrib</span><br><span class="line">├── devtool-hello-world</span><br><span class="line">│   ├── CMakeLists.txt</span><br><span class="line">│   └── hello-world.c</span><br><span class="line">├── documentation</span><br><span class="line">├── LICENSE</span><br><span class="line">├── ...</span><br><span class="line">└── scripts</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<p>Note：<br>项目源码建议最好添加到~/host/code/poky/poky目录（git rev-parse —show-toplevel输出结果）及子目录下，否则最后使用devtool finish命令时可能无法工作。</p>
-</li>
-<li><p>使用 devtool 把 devtool-hello-world 添加到workspace Layer<br>使用 devtoo add命令添加新的 recipe 到 workspace Layer时，如果workspace环境目录不存在，则会首先新建该目录，同时需要指定recipe的源码路径, 命令如下：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">user@d6ae2233aca6:~&#x2F;host&#x2F;code&#x2F;poky&#x2F;poky$ devtool add devtool-hello-world .&#x2F;devtool-hello-world&#x2F;</span><br><span class="line">NOTE: Starting bitbake server...</span><br><span class="line">INFO: Creating workspace layer in &#x2F;home&#x2F;user&#x2F;host&#x2F;code&#x2F;poky&#x2F;poky&#x2F;build&#x2F;workspace</span><br><span class="line">NOTE: Starting bitbake server...</span><br><span class="line">NOTE: Reconnecting to bitbake server...</span><br><span class="line">NOTE: Retrying server connection (#1)...</span><br><span class="line">NOTE: Reconnecting to bitbake server...</span><br><span class="line">NOTE: Reconnecting to bitbake server...</span><br><span class="line">NOTE: Retrying server connection (#1)...</span><br><span class="line">NOTE: Retrying server connection (#1)...</span><br><span class="line">NOTE: Starting bitbake server...</span><br><span class="line">INFO: Recipe &#x2F;home&#x2F;user&#x2F;host&#x2F;code&#x2F;poky&#x2F;poky&#x2F;build&#x2F;workspace&#x2F;recipes&#x2F;devtool-hello-world&#x2F;devtool-hello-world.bb has been automatically created; further editing may be required to make it fully functional</span><br></pre></td></tr></table></figure>
-<p>执行命令后的目录结构,可以看到在workspace Layer中已经存在一些基础配置目录以及devtool-hello-world recipe.</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">user@d6ae2233aca6:~&#x2F;host&#x2F;code&#x2F;poky&#x2F;poky$ tree -L 1</span><br><span class="line">.</span><br><span class="line">├── bitbake</span><br><span class="line">├── build</span><br><span class="line">    └── build</span><br><span class="line">		└── workspace</span><br><span class="line">			├── appends</span><br><span class="line">			│   └── devtool-hello-world.bbappend</span><br><span class="line">			├── conf</span><br><span class="line">			│   └── layer.conf</span><br><span class="line">			├── README</span><br><span class="line">			└── recipes</span><br><span class="line">				└── devtool-hello-world</span><br><span class="line">					└── devtool-hello-world.bb</span><br><span class="line">├── devtool-hello-world</span><br><span class="line">│   ├── CMakeLists.txt</span><br><span class="line">│   └── hello-world.c</span><br><span class="line">├── documentation</span><br><span class="line">├── ...</span><br><span class="line">└── scripts</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>编译 devtool-hello-world recipe<br>命令如下：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">devtool build devtool-hello-world</span><br></pre></td></tr></table></figure>
-<p>编译完成后，我们找到源码路径，可以看到生成2个软连接，分别指向该recipe的编译log目录和$S目录(${WORKDIR}/${BPN}-${PV}),这样我们可以非常方便地找到对应的生成物。  </p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">user@d6ae2233aca6:~&#x2F;host&#x2F;code&#x2F;poky&#x2F;poky&#x2F;devtool-hello-world$ tree</span><br><span class="line">.</span><br><span class="line">├── CMakeLists.txt</span><br><span class="line">├── hello-world.c</span><br><span class="line">├── oe-logs -&gt; &#x2F;home&#x2F;user&#x2F;host&#x2F;code&#x2F;poky&#x2F;poky&#x2F;build&#x2F;tmp&#x2F;work&#x2F;core2-64-poky-linux&#x2F;devtool-hello-world&#x2F;1.0-r0&#x2F;temp</span><br><span class="line">└── oe-workdir -&gt; &#x2F;home&#x2F;user&#x2F;host&#x2F;code&#x2F;poky&#x2F;poky&#x2F;build&#x2F;tmp&#x2F;work&#x2F;core2-64-poky-linux&#x2F;devtool-hello-world&#x2F;1.0-r0</span><br><span class="line"></span><br></pre></td></tr></table></figure></li>
-<li>把新的 recipe 添加到 meta-test-layer<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">user@d6ae2233aca6:~&#x2F;host&#x2F;code&#x2F;poky&#x2F;poky&#x2F;build$ devtool finish   devtool-hello-world  meta-test-layer</span><br><span class="line">NOTE: Starting bitbake server...</span><br><span class="line">NOTE: Reconnecting to bitbake server...</span><br><span class="line">NOTE: Retrying server connection (#1)...</span><br><span class="line">Loading cache: 100% |######################################################################################################################################################################################################| Time: 0:00:00</span><br><span class="line">Loaded 1316 entries from dependency cache.</span><br><span class="line">Parsing recipes: 100% |####################################################################################################################################################################################################| Time: 0:00:00</span><br><span class="line">Parsing of 776 .bb files complete (775 cached, 1 parsed). 1317 targets, 40 skipped, 0 masked, 0 errors.</span><br><span class="line">ERROR: Unable to find initial revision - please specify it with --initial-rev</span><br></pre></td></tr></table></figure>
-提示没有找到初始化版本，尝试在 ~/host/code/poky/poky/devtool-hello-world 目录使用git init新建库，并做初始化提交（commit id:6833c8de29441f22c2515bcf1ce8f7f3f79ade29）<br>Note:<br>如果源码本身存在项目的某个git库中，应该不会出现该错误。<br>然后重新执行如下命令<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">user@d6ae2233aca6:~&#x2F;host&#x2F;code&#x2F;poky&#x2F;poky&#x2F;devtool-hello-world$ devtool finish --initial-rev 6833c8de29441f22c2515bcf1ce8f7f3f79ade29  devtool-hello-world  meta-test-layer</span><br><span class="line">NOTE: Starting bitbake server...</span><br><span class="line">NOTE: Reconnecting to bitbake server...</span><br><span class="line">NOTE: Retrying server connection (#1)...</span><br><span class="line">Loading cache: 100% |######################################################################################################################################################################################################| Time: 0:00:00</span><br><span class="line">Loaded 1316 entries from dependency cache.</span><br><span class="line">Parsing recipes: 100% |####################################################################################################################################################################################################| Time: 0:00:00</span><br><span class="line">Parsing of 776 .bb files complete (775 cached, 1 parsed). 1317 targets, 40 skipped, 0 masked, 0 errors.</span><br><span class="line">INFO: No patches or files need updating</span><br><span class="line">INFO: Moving recipe file to &#x2F;home&#x2F;user&#x2F;host&#x2F;code&#x2F;poky&#x2F;poky&#x2F;meta-test-layer&#x2F;recipes-devtool-hello-world&#x2F;devtool-hello-world</span><br><span class="line">INFO: Leaving source tree &#x2F;home&#x2F;user&#x2F;host&#x2F;code&#x2F;poky&#x2F;poky&#x2F;devtool-hello-world as-is; if you no longer need it then please delete it manually</span><br></pre></td></tr></table></figure>
-</li>
-</ol>
-<p>查看 meta-test-layer 目录结构，可以看到 devtool-hello-world recipe已经被添加到 meta-test-layer 了。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">.</span><br><span class="line">├── conf</span><br><span class="line">├── COPYING.MIT</span><br><span class="line">├── README</span><br><span class="line">├── recipes-devtool-hello-world</span><br><span class="line">	└── devtool-hello-world</span><br><span class="line">		└── devtool-hello-world.bb</span><br><span class="line">├── recipes-example</span><br><span class="line">└── recipes-hello-world</span><br></pre></td></tr></table></figure></p>
-<ol>
-<li>删除 workspace 中的 devtool-hello-world recipe<br>执行如下命令即可<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">devtool reset devtool-hello-world</span><br></pre></td></tr></table></figure>
-</li>
-</ol>
-<h3 id="Modify-a-Recipe-in-the-Workspace-Layer-git源码"><a href="#Modify-a-Recipe-in-the-Workspace-Layer-git源码" class="headerlink" title="Modify a Recipe in the Workspace Layer(git源码)"></a>Modify a Recipe in the Workspace Layer(git源码)</h3><p>很多时候，我们需要对一些来源为git/svn上的Source Files进行修改，这里有2中方法</p>
-<ol>
-<li><p>执行对应的 recipe 的 do_patch task，这样会在 build 目录对应的 $S目录(${WORKDIR}/${BPN}-${PV})中生成已经打完patch的源文件，找到对应的源文件进行修改生成patch，最后在对应的bb文件中添加上该patch.</p>
-</li>
-<li><p>使用devtool工具</p>
-</li>
-</ol>
-<p>我们以修改 ca-certificates_20190110.bb 为例来介绍怎么使用 devtool 工具来生成patch.</p>
-<p>a. 首先查看一下 ca-certificates 路径和内容<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">1）代码tree：</span><br><span class="line">&#x2F;poky&#x2F;meta&#x2F;recipes-support&#x2F;ca-certificates$ tree</span><br><span class="line">.</span><br><span class="line">├── ca-certificates</span><br><span class="line">│   ├── 0001-certdata2pem.py-use-python3.patch</span><br><span class="line">│   ├── 0001-update-ca-certificates-don-t-use-Debianisms-in-run-p.patch</span><br><span class="line">│   ├── 0002-update-ca-certificates-use-SYSROOT.patch</span><br><span class="line">│   ├── 0003-update-ca-certificates-use-relative-symlinks-from-ET.patch</span><br><span class="line">│   ├── default-sysroot.patch</span><br><span class="line">│   ├── sbindir.patch</span><br><span class="line">│   └── update-ca-certificates-support-Toybox.patch</span><br><span class="line">└── ca-certificates_20190110.bb</span><br><span class="line"></span><br><span class="line">2）ca-certificates_20190110.bb：</span><br><span class="line">SRC_URI &#x3D; &quot;git:&#x2F;&#x2F;salsa.debian.org&#x2F;debian&#x2F;ca-certificates.git;protocol&#x3D;https \</span><br><span class="line">           file:&#x2F;&#x2F;0002-update-ca-certificates-use-SYSROOT.patch \</span><br><span class="line">           file:&#x2F;&#x2F;0001-update-ca-certificates-don-t-use-Debianisms-in-run-p.patch \</span><br><span class="line">           file:&#x2F;&#x2F;update-ca-certificates-support-Toybox.patch \</span><br><span class="line">           file:&#x2F;&#x2F;default-sysroot.patch \</span><br><span class="line">           file:&#x2F;&#x2F;sbindir.patch \</span><br><span class="line">           file:&#x2F;&#x2F;0003-update-ca-certificates-use-relative-symlinks-from-ET.patch \</span><br><span class="line">           &quot;</span><br></pre></td></tr></table></figure><br>从如上代码结构很容易看出来，ca-certificates是利用git://salsa.debian.org/debian/ca-certificates.git 的内容，同时引用本地的这些patch，最终编译生成输出deb包。</p>
-<p>b. 执行devtoo modify + recipes<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">user@a8b2146aff8c:~&#x2F;host&#x2F;code&#x2F;poky&#x2F;poky&#x2F;build$ devtool modify ca-certificates</span><br><span class="line">...</span><br><span class="line"></span><br><span class="line">Initialising tasks: 100% |######################################################################################################################################################################| Time: 0:00:00</span><br><span class="line">NOTE: Executing RunQueue Tasks</span><br><span class="line">NOTE: Tasks Summary: Attempted 3 tasks of which 0 didn&#39;t need to be rerun and all succeeded.</span><br><span class="line">NOTE: Writing buildhistory</span><br><span class="line">NOTE: Source tree extracted to &#x2F;home&#x2F;user&#x2F;host&#x2F;code&#x2F;sb_dev&#x2F;apps_proc&#x2F;build-qti-distro-ubuntu-fullstack-debug&#x2F;workspace&#x2F;sources&#x2F;ca-certificates</span><br><span class="line">NOTE: Using source tree as build directory since that would be the default for this recipe</span><br><span class="line">NOTE: Recipe ca-certificates now set up to build from &#x2F;home&#x2F;user&#x2F;host&#x2F;code&#x2F;sb_dev&#x2F;apps_proc&#x2F;build-qti-distro-ubuntu-fullstack-debug&#x2F;workspace&#x2F;sources&#x2F;ca-certificates</span><br><span class="line"></span><br></pre></td></tr></table></figure><br>执行此命令后，会在 workspace/appends/ 目录生成 ca-certificates_20190110.bbappend，同时会在 workspace/sources/ca-certificates 目录中把bb文件中 SRC_URI 对应的git库下载下来并应用好本地的patch.<br>查看本地的patch，主要是对 sbin/update-ca-certificates 工具进行修改，这里我们在workspace/sources/ca-certificates中找到update-ca-certificates，对其进行修改后执行，修改内如只要是添加了一句打印。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line">git add . </span><br><span class="line">git commit -m &quot;test for the devtool modify feature&quot;</span><br><span class="line"></span><br><span class="line">leix@leix:~&#x2F;code&#x2F;poky&#x2F;poky&#x2F;build&#x2F;workspace&#x2F;sources&#x2F;ca-certificates&#x2F;sbin$ git show</span><br><span class="line">commit d39db63bbdae9ce72908deead393b7bd5b28a519</span><br><span class="line">Author: BSP) Leixiang0320 &lt;leixiang0320@thundersoft.com&gt;</span><br><span class="line">Date:   Fri Oct 1 17:00:31 2021 +0800</span><br><span class="line"></span><br><span class="line">    test for the devtool modify feature</span><br><span class="line"></span><br><span class="line">diff --git a&#x2F;sbin&#x2F;update-ca-certificates b&#x2F;sbin&#x2F;update-ca-certificates</span><br><span class="line">index ca1f0e8..f177680 100755</span><br><span class="line">--- a&#x2F;sbin&#x2F;update-ca-certificates</span><br><span class="line">+++ b&#x2F;sbin&#x2F;update-ca-certificates</span><br><span class="line">@@ -62,6 +62,7 @@ do</span><br><span class="line">       HOOKSDIR&#x3D;&quot;$1&quot;;;</span><br><span class="line">     --help|-h|*)</span><br><span class="line">       echo &quot;$0: [--verbose] [--fresh]&quot;</span><br><span class="line">+      echo &quot;test for devtool modify feature&quot;</span><br><span class="line">       exit;;</span><br><span class="line">   esac</span><br><span class="line">   shift</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<p>c. 执行 devtool update-recipe ca-certificates<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">poky&#x2F;build&#x2F;workspace&#x2F;sources&#x2F;ca-certificates$ devtool update-recipe ca-certificates</span><br><span class="line">...</span><br><span class="line">Summary: There were 62 WARNING messages shown.</span><br><span class="line">NOTE: Adding new patch 0001-add-print-to-test-devtool.patch</span><br><span class="line">NOTE: Updating recipe ca-certificates_20190110.bb</span><br><span class="line"></span><br></pre></td></tr></table></figure><br>检测对应的源码路径， 可以发现patch已经生成，我们接下来只需要执行 git add &amp; git commit即可。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br></pre></td><td class="code"><pre><span class="line">poky&#x2F;meta&#x2F;recipes-support&#x2F;ca-certificates&#x2F;ca-certificates$ git diff</span><br><span class="line">diff --git a&#x2F;meta&#x2F;recipes-support&#x2F;ca-certificates&#x2F;ca-certificates_20190110.bb b&#x2F;meta&#x2F;recipes-support&#x2F;ca-certificates&#x2F;ca-certificates_20190110.bb</span><br><span class="line">index ce3cb21..ba87094 100644</span><br><span class="line">--- a&#x2F;meta&#x2F;recipes-support&#x2F;ca-certificates&#x2F;ca-certificates_20190110.bb</span><br><span class="line">+++ b&#x2F;meta&#x2F;recipes-support&#x2F;ca-certificates&#x2F;ca-certificates_20190110.bb</span><br><span class="line">@@ -24,6 +24,7 @@ SRC_URI &#x3D; &quot;git:&#x2F;&#x2F;salsa.debian.org&#x2F;debian&#x2F;ca-certificates.git;protocol&#x3D;https \</span><br><span class="line">            file:&#x2F;&#x2F;sbindir.patch \</span><br><span class="line">            file:&#x2F;&#x2F;0003-update-ca-certificates-use-relative-symlinks-from-ET.patch \</span><br><span class="line">            file:&#x2F;&#x2F;0001-certdata2pem.py-use-python3.patch \</span><br><span class="line">+           file:&#x2F;&#x2F;0001-add-print-to-test-devtool.patch \</span><br><span class="line">            &quot;</span><br><span class="line"></span><br><span class="line"> S &#x3D; &quot;$&#123;WORKDIR&#125;&#x2F;git&quot;</span><br><span class="line"></span><br><span class="line">poky&#x2F;meta&#x2F;recipes-support&#x2F;ca-certificates$ cat ca-certificates&#x2F;0001-add-print-to-test-devtool.patch</span><br><span class="line">From 1625870a59ae35fd86bf86767dee0a7d77afc6cb Mon Sep 17 00:00:00 2001</span><br><span class="line">From: &quot;BSP) Leixiang0320&quot; &lt;leixiang0320@thundersoft.com&gt;</span><br><span class="line">Date: Thu, 7 Oct 2021 14:36:51 +0800</span><br><span class="line">Subject: [PATCH] add print to test devtool</span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"> sbin&#x2F;update-ca-certificates | 1 +</span><br><span class="line"> 1 file changed, 1 insertion(+)</span><br><span class="line"></span><br><span class="line">diff --git a&#x2F;sbin&#x2F;update-ca-certificates b&#x2F;sbin&#x2F;update-ca-certificates</span><br><span class="line">index ca1f0e8..a1f03b7 100755</span><br><span class="line">--- a&#x2F;sbin&#x2F;update-ca-certificates</span><br><span class="line">+++ b&#x2F;sbin&#x2F;update-ca-certificates</span><br><span class="line">@@ -62,6 +62,7 @@ do</span><br><span class="line">       HOOKSDIR&#x3D;&quot;$1&quot;;;</span><br><span class="line">     --help|-h|*)</span><br><span class="line">       echo &quot;$0: [--verbose] [--fresh]&quot;</span><br><span class="line">+      echo &quot;add print to test devtool&quot;</span><br><span class="line">       exit;;</span><br><span class="line">   esac</span><br><span class="line">   shift</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure><br>d. 执行 devtool finish ca-certificates + [layer]<br>执行finish命令，来关断workspace与源码中的 ca-certificates 联系，同时finish功能有包含update-recipe的功能，即也包含了把workspace工作区的修改update到源码目录的作用。</p>
-<p>e. 最后执行devtool reset ca-certificates<br>执行reset命令，从workspace工作区移除对应的recipe，但是源码还保持在其中，需要手动删除。</p>
-<h2 id="toaster"><a href="#toaster" class="headerlink" title="toaster"></a>toaster</h2><h3 id="toaster-是什么"><a href="#toaster-是什么" class="headerlink" title="toaster 是什么"></a>toaster 是什么</h3><p>Toaster 是 Yocto 项目的 OpenEmbedded 构建系统的 Web 界面，该界面使您能够配置和运行您的构建，有关构建的信息被收集并存储在数据库中，您可以使用 Toaster 在多个远程构建服务器上配置和启动构建。</p>
-<h3 id="toaster-做什么"><a href="#toaster-做什么" class="headerlink" title="toaster 做什么"></a>toaster 做什么</h3><ul>
-<li>Configure and Run Builds<ul>
-<li>浏览项目源码的Layers</li>
-<li>浏览这些Layers中的image，recipes 和 machines配置</li>
-<li>添加/删除Layers</li>
-<li>设置配置变量</li>
-<li>选择构建目标</li>
-<li>开始构建</li>
-</ul>
-</li>
-<li>Information About the Build Process<ul>
-<li>查看构建内容（recipes 和 packages）以及哪些packages被安装到最终的image</li>
-<li>浏览image的目录结构</li>
-<li>查看构建配置中的所有变量</li>
-<li>检查错误、警告和跟踪消息以帮助调试</li>
-<li>查看有关在构建期间执行和重用的 BitBake 任务的信息，包括那些使用共享状态的任务。</li>
-<li>查看配方、包和任务之间的依赖关系。</li>
-<li>查看性能信息，例如构建时间、任务时间、CPU 使用率和磁盘 I/O。</li>
-</ul>
-</li>
-</ul>
-<h3 id="准备使用toaster"><a href="#准备使用toaster" class="headerlink" title="准备使用toaster"></a>准备使用toaster</h3><p>Toaster依赖python，其中依赖项定义在poky/bitbake/toaster-requirements.txt中，所以首先需要按照依赖项。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install python3-pip</span><br><span class="line">pip3 install --user -r bitbake&#x2F;toaster-requirements.txt</span><br></pre></td></tr></table></figure></p>
-<h1 id="7-常见用法"><a href="#7-常见用法" class="headerlink" title="7. 常见用法"></a>7. 常见用法</h1><h2 id="1-编译单个bb文件"><a href="#1-编译单个bb文件" class="headerlink" title="1. 编译单个bb文件"></a>1. 编译单个bb文件</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"># 编译</span><br><span class="line">bitbake -b foo_1.0.bb</span><br><span class="line"></span><br><span class="line"># 清除编译产物</span><br><span class="line">bitbake -b foo.bb -c cleansstate</span><br></pre></td></tr></table></figure>
-<p>“-b “选项明确地不处理配方的依赖关系，一般用于调试目的。</p>
-<h2 id="2-执行任务"><a href="#2-执行任务" class="headerlink" title="2. 执行任务"></a>2. 执行任务</h2><p>当管理多个.bb文件时，会引入许多额外的复杂性（构建时和运行时的依赖关系，recipe版本等），我们一般使用如下方法来执行任务<br>bitbake + package name<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"># 编译</span><br><span class="line">bitbake foo</span><br><span class="line"></span><br><span class="line">#清除</span><br><span class="line">bitbake foo -c cleansstate</span><br></pre></td></tr></table></figure></p>
-<h2 id="3-生成依赖关系"><a href="#3-生成依赖关系" class="headerlink" title="3. 生成依赖关系"></a>3. 生成依赖关系</h2><p>略</p>
-<h2 id="4-查看变量的实际值"><a href="#4-查看变量的实际值" class="headerlink" title="4. 查看变量的实际值"></a>4. 查看变量的实际值</h2><p>a. 查看配置文件（local.conf、bblayers.conf、bitbake.conf等） 被解析后显示的变量值<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">bitbake -e |grep VARIABLE&#x3D;</span><br></pre></td></tr></table></figure><br>b.查看某recipe的值<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">bitbake recipe -e | grep VARIABLE&#x3D;</span><br></pre></td></tr></table></figure></p>
-<h2 id="5-提升Function为Task"><a href="#5-提升Function为Task" class="headerlink" title="5. 提升Function为Task"></a>5. 提升Function为Task</h2><p>shell 函数或 BitBake-style Python 函数，通过 addtask 命令可以提升为任务。<br>addtask 命令还可以选择描述任务和其他任务之间的依赖关系。下面是一个例子，显示了如何定义一个任务并声明一些依赖关系。<br><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">python <span class="title">do_printdate</span> <span class="params">()</span> </span>&#123;</span><br><span class="line"> print time.strftime(&#x27;%Y%m%d&#x27;, time.gmtime())</span><br><span class="line">&#125;</span><br><span class="line">addtask printdate after do_fetch before do_build</span><br></pre></td></tr></table></figure><br>addtask的第一个参数是要提升为任务的函数的名称。如果名称不是以 “do<em>“开头，”do</em>“就会被隐含地添加进去，这样就执行了所有任务名称以 “do_”开头的惯例。</p>
-<p>do_printdate 任务在do_build之前运行，在do_fetch之后运行。</p>
-<h2 id="6-强制执行Task"><a href="#6-强制执行Task" class="headerlink" title="6. 强制执行Task"></a>6. 强制执行Task</h2><p>当用bitbake recipe -c task命令手动选择一个要运行的任务时,你可能会发现该任务（示例：do_printdate）只在你第一次用bitbake命令构建配方时才会运行。这是因为BitBake认为该任务在首次运行后是 “最新的”。如果你想强制该任务总是被重新运行以进行实验，你可以通过使用[nostamp]变量标志使BitBake总是认为该任务是 “过时的”，如下所示。<br><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">do_printdate[nostamp] = <span class="string">&quot;1&quot;</span></span><br></pre></td></tr></table></figure><br>或者你也可以明确地运行任务并提供-f选项，如下所示。<br><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">bitbake recipe -c printdate -f</span><br></pre></td></tr></table></figure></p>
-<p>注：本文档大部分内容为翻译参考资料中的官方英文文档</p>
-<h2 id="7-官方-QA-Error-and-Waring-Messages"><a href="#7-官方-QA-Error-and-Waring-Messages" class="headerlink" title="7. 官方 QA Error and Waring Messages"></a>7. 官方 QA Error and Waring Messages</h2><p>详情参考：<a target="_blank" rel="noopener" href="https://www.yoctoproject.org/docs/2.5/ref-manual/ref-manual.html#ref-qa-checks">Yocto Project Reference Manual</a></p>
-<p>参考资料：</p>
-<ul>
-<li><a target="_blank" rel="noopener" href="http://docs.yoctoproject.org/">Welcome to the Yocto Project Documentation — The Yocto Project ® dev documentation</a></li>
-<li><a target="_blank" rel="noopener" href="https://wiki.yoctoproject.org/wiki/Main_Page">Yocto Project</a></li>
-</ul>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/03/20/Android-USB-Framework-Architecture/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="LexYoung">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="LexYoung笔记">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/03/20/Android-USB-Framework-Architecture/" class="post-title-link" itemprop="url">Android_USB_Framework_Architecture</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-
-              <time title="Created: 2021-03-20 16:52:31" itemprop="dateCreated datePublished" datetime="2021-03-20T16:52:31+08:00">2021-03-20</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2021-06-29 11:34:23" itemprop="dateModified" datetime="2021-06-29T11:34:23+08:00">2021-06-29</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">In</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/usb/" itemprop="url" rel="index"><span itemprop="name">usb</span></a>
-                </span>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <!-- toc -->
-<p>&nbsp;</p>
-<hr>
-<p>&nbsp;</p>
-<h2 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h2><p>USB是通用串行总线（Universal Serial Bus）的缩写，，目前USB协议版本如下</p>
-<div class="table-container">
-<table>
-<thead>
-<tr>
-<th>USB Version</th>
-<th>BandWidth</th>
-<th>Power</th>
-<th>Note</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>USB1.0</td>
-<td>1.5Mbps</td>
-<td>5V/500mA</td>
-<td>USB LOW SPEED</td>
-</tr>
-<tr>
-<td>USB1.1</td>
-<td>12Mbps</td>
-<td>5V/500mA</td>
-<td>USB FULL SPEED</td>
-</tr>
-<tr>
-<td>USB2.0</td>
-<td>480Mbps</td>
-<td>5V/500mA</td>
-<td>USB HIGH SPEED</td>
-</tr>
-<tr>
-<td>USB3.0</td>
-<td>5Gbps</td>
-<td>5V/1A</td>
-<td>SuperSpeed USB<br>当USB3.1推出时，USB3.0被追溯命名为 USB 3.1 Gen 1,<br>在2019年USB IF再次更新标准，USB3.0被称为USB 3.2 Gen1</td>
-</tr>
-<tr>
-<td>USB3.1</td>
-<td>10Gbps</td>
-<td>5V/1A <br>12V/2A <br>20V/5A</td>
-<td>SuperSpeed USB 10Gbps<br>当USB3.1推出时，按照新的标准命名为USB 3.1 Gen2，<br>在2019年USB IF再次更新标准，被重命名为USB 3.2 Gen 2</td>
-</tr>
-<tr>
-<td>USB3.2</td>
-<td>20Gbps</td>
-<td>5V/1A<br>12V/2A<br>20V/5A</td>
-<td>SuperSpeed USB 20Gbps<br>根据新标准，被命名为USB 3.2 Gen 2×2</td>
-</tr>
-<tr>
-<td>USB4.0</td>
-<td>40Gbps</td>
-<td>5V/1A<br>12V/2A<br>20V/5A</td>
-<td>只是协议，还没有配套硬件推出</td>
-</tr>
-</tbody>
-</table>
-</div>
-          <div class="home-post-tags">
-              <a href="/" rel="tag"></a>
-              <script type="text/javascript">
-              var tagsall=document.getElementsByClassName("home-post-tags")
-              for (var i = tagsall.length - 1; i >= 0; i--){
-                  var tags=tagsall[i].getElementsByTagName("a");
-                  for (var j = tags.length - 1; j >= 0; j--) {
-                      var r=Math.floor(Math.random()*255);
-                      var g=Math.floor(Math.random()*255);
-                      var b=Math.floor(Math.random()*255);
-                      tags[j].style.background = "rgb("+r+","+g+","+b+")";
-                  }
-              }
-              </script>
-          </div>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2021/03/20/Android-USB-Framework-Architecture/#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
         
-      
-    </div>
 
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
 
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/01/05/Thermal_Core_Framework_Architecture/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="LexYoung">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="LexYoung笔记">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/01/05/Thermal_Core_Framework_Architecture/" class="post-title-link" itemprop="url">Thermal Core 框架</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-
-              <time title="Created: 2021-01-05 20:01:20" itemprop="dateCreated datePublished" datetime="2021-01-05T20:01:20+08:00">2021-01-05</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2021-06-28 20:13:50" itemprop="dateModified" datetime="2021-06-28T20:13:50+08:00">2021-06-28</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">In</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Thermal/" itemprop="url" rel="index"><span itemprop="name">Thermal</span></a>
-                </span>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <!-- toc -->
-<p>&nbsp;</p>
-<hr>
-<p>&nbsp;</p>
-<p>关于温控，高通+Android平台目前主要提供了3个层面的机制来保护设备</p>
-<ul>
-<li>硬件相关控制（LMH）</li>
-<li>Linux内核控制（Thermal Core）</li>
-<li>User Space控制（ThermalEngine守护进程）</li>
-</ul>
-<p>此章节主要介绍Thermal Core的相关内容。<br></p>
-          <div class="home-post-tags">
-              <a href="/" rel="tag"></a>
-              <script type="text/javascript">
-              var tagsall=document.getElementsByClassName("home-post-tags")
-              for (var i = tagsall.length - 1; i >= 0; i--){
-                  var tags=tagsall[i].getElementsByTagName("a");
-                  for (var j = tags.length - 1; j >= 0; j--) {
-                      var r=Math.floor(Math.random()*255);
-                      var g=Math.floor(Math.random()*255);
-                      var b=Math.floor(Math.random()*255);
-                      tags[j].style.background = "rgb("+r+","+g+","+b+")";
-                  }
-              }
-              </script>
-          </div>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2021/01/05/Thermal_Core_Framework_Architecture/#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
         
-      
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2021/06/30/Yocto-Build-System-Introduction/" rel="prev" title="Yocto_Build_System_Introduction">
+      <i class="fa fa-chevron-left"></i> Yocto_Build_System_Introduction
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2021/08/24/USB-Type-C-Specification-Release/" rel="next" title="USB-Type-C-Specification-Release">
+      USB-Type-C-Specification-Release <i class="fa fa-chevron-right"></i>
+    </a></div>
     </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
       </footer>
+    
   </article>
   
   
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2020/09/24/Qcom-platform-battery-capacity-algorithm/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="LexYoung">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="LexYoung笔记">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2020/09/24/Qcom-platform-battery-capacity-algorithm/" class="post-title-link" itemprop="url">Qcom platform battery capacity algorithm</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-
-              <time title="Created: 2020-09-24 19:09:55" itemprop="dateCreated datePublished" datetime="2020-09-24T19:09:55+08:00">2020-09-24</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2020-10-01 18:13:42" itemprop="dateModified" datetime="2020-10-01T18:13:42+08:00">2020-10-01</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">In</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Charging/" itemprop="url" rel="index"><span itemprop="name">Charging</span></a>
-                </span>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <!-- toc -->
-<p>&nbsp;</p>
-<hr>
-<p>&nbsp;</p>
-<div class="table-container">
-<table>
-<thead>
-<tr>
-<th>Acronym</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>BMS</td>
-<td>battery monitoring system</td>
-</tr>
-<tr>
-<td>RC</td>
-<td>remaing capacity.<br>当前状态下的剩余电量，充满电时RC=FCC</td>
-</tr>
-<tr>
-<td>UUC</td>
-<td>unusable capacity.<br>由于电池电阻导致的电池压降等原因而无法使用的电量</td>
-</tr>
-<tr>
-<td>UC</td>
-<td>usable capacity.<br>UC=FCC-UUC</td>
-</tr>
-<tr>
-<td>RUC</td>
-<td>Remaining Usable Capacity。RUC=RC-UUC</td>
-</tr>
-<tr>
-<td>SoC</td>
-<td>State of Charge.<br>剩余电量与总电量的比值，SoC = RUC/UC = (RC-UUC)/(FCC-UUC)</td>
-</tr>
-<tr>
-<td>OCV</td>
-<td>Open Circuit Voltage.<br>近乎于0电流情况下的稳定电压，电池带负载工作后，需要5~30min恢复OCV。</td>
-</tr>
-<tr>
-<td>ACC</td>
-<td>Apparent Charge Capacity.<br>FCC of the battery modified by increased battery resistance due to temperature and loaded system cutoff voltage</td>
-</tr>
-</tbody>
-</table>
-</div>
-<p>&nbsp;</p>
-<hr>
-<p>&nbsp;</p>
-<p>目前接触到的高通有关电池电量算法一共有4种：</p>
-<ol>
-<li>Voltage Mode Battery Monitor System</li>
-<li>Battery Monitor System</li>
-<li>Qualcomm Battery Gauge</li>
-<li>Fuel Gauge</li>
-</ol>
-<p>其中前3种为软件算法，最后一种为硬件算法，接下来我们分别介绍。</p>
-          <div class="home-post-tags">
-              <a href="/" rel="tag"></a>
-              <a href="/" rel="tag"></a>
-              <script type="text/javascript">
-              var tagsall=document.getElementsByClassName("home-post-tags")
-              for (var i = tagsall.length - 1; i >= 0; i--){
-                  var tags=tagsall[i].getElementsByTagName("a");
-                  for (var j = tags.length - 1; j >= 0; j--) {
-                      var r=Math.floor(Math.random()*255);
-                      var g=Math.floor(Math.random()*255);
-                      var b=Math.floor(Math.random()*255);
-                      tags[j].style.background = "rgb("+r+","+g+","+b+")";
-                  }
-              }
-              </script>
-          </div>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2020/09/24/Qcom-platform-battery-capacity-algorithm/#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-
   
 
 
@@ -2914,6 +1870,7 @@ Makefile.am:<figure class="highlight plain"><table><tr><td class="gutter"><pre><
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#1-%E5%88%9D%E8%AF%86yocto"><span class="nav-number">1.</span> <span class="nav-text">1 初识yocto</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#11-%E5%9F%BA%E6%9C%AC%E5%90%8D%E8%AF%8D"><span class="nav-number">1.1.</span> <span class="nav-text">1.1 基本名词</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#12-%E7%89%B9%E6%80%A7"><span class="nav-number">1.2.</span> <span class="nav-text">1.2 特性</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#13-%E7%9B%B8%E5%85%B3%E8%B7%AF%E5%BE%84"><span class="nav-number">1.3.</span> <span class="nav-text">1.3 相关路径</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#14-%E4%B8%93%E4%B8%9A%E6%9C%AF%E8%AF%AD"><span class="nav-number">1.4.</span> <span class="nav-text">1.4 专业术语</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#2-yocto%E5%B7%A5%E4%BD%9C%E6%B5%81%E7%A8%8B"><span class="nav-number">2.</span> <span class="nav-text">2 yocto工作流程</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#21-user-configuration"><span class="nav-number">2.1.</span> <span class="nav-text">2.1 User Configuration</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#22-metadata-layers"><span class="nav-number">2.2.</span> <span class="nav-text">2.2 Metadata Layers</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#23-sources"><span class="nav-number">2.3.</span> <span class="nav-text">2.3 Sources</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#24-package-feeds"><span class="nav-number">2.4.</span> <span class="nav-text">2.4 Package Feeds</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#25-bitbake-tool"><span class="nav-number">2.5.</span> <span class="nav-text">2.5 BitBake Tool</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#251source-fetching"><span class="nav-number">2.5.1.</span> <span class="nav-text">2.5.1Source Fetching</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#252-patching"><span class="nav-number">2.5.2.</span> <span class="nav-text">2.5.2 Patching</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#253-configuration-compilation-and-staging"><span class="nav-number">2.5.3.</span> <span class="nav-text">2.5.3 Configuration, Compilation, and Staging</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#254-package-splitting"><span class="nav-number">2.5.4.</span> <span class="nav-text">2.5.4 Package Splitting</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#255-image-generation"><span class="nav-number">2.5.5.</span> <span class="nav-text">2.5.5 Image Generation</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#256-sdk-generation"><span class="nav-number">2.5.6.</span> <span class="nav-text">2.5.6 SDK Generation</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#257-stamp-files-and-the-rerunning-of-tasks"><span class="nav-number">2.5.7.</span> <span class="nav-text">2.5.7 Stamp Files and the Rerunning of Tasks</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#258-setscene-tasks-and-shared-state"><span class="nav-number">2.5.8.</span> <span class="nav-text">2.5.8 Setscene Tasks and Shared State</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#26-images"><span class="nav-number">2.6.</span> <span class="nav-text">2.6 Images</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#27-application-development-sdk"><span class="nav-number">2.7.</span> <span class="nav-text">2.7 Application Development SDK</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#28-shared-state-cache"><span class="nav-number">2.8.</span> <span class="nav-text">2.8 Shared State Cache</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#281-overall-architecture"><span class="nav-number">2.8.1.</span> <span class="nav-text">2.8.1 Overall Architecture</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#282-checksums-signatures"><span class="nav-number">2.8.2.</span> <span class="nav-text">2.8.2 Checksums (Signatures)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#283-shared-state"><span class="nav-number">2.8.3.</span> <span class="nav-text">2.8.3 Shared State</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#29-automatically-added-runtime-dependencies"><span class="nav-number">2.9.</span> <span class="nav-text">2.9 Automatically Added Runtime Dependencies</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#210-fakeroot-and-pseudo"><span class="nav-number">2.10.</span> <span class="nav-text">2.10 Fakeroot and Pseudo</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#3-yocto-project%E7%BB%84%E4%BB%B6"><span class="nav-number">3.</span> <span class="nav-text">3. Yocto Project组件</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#recipes"><span class="nav-number">3.1.</span> <span class="nav-text">Recipes</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#configuration-files"><span class="nav-number">3.2.</span> <span class="nav-text">Configuration Files</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#classes"><span class="nav-number">3.3.</span> <span class="nav-text">Classes</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#layers"><span class="nav-number">3.4.</span> <span class="nav-text">Layers</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#append-files"><span class="nav-number">3.5.</span> <span class="nav-text">Append Files</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#4-bitbake-%E8%AF%AD%E6%B3%95"><span class="nav-number">4.</span> <span class="nav-text">4. bitbake 语法</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#basic-%E8%AF%AD%E6%B3%95"><span class="nav-number">4.1.</span> <span class="nav-text">Basic 语法</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-%E5%9F%BA%E6%9C%AC%E5%8F%98%E9%87%8F%E8%AE%BE%E7%BD%AE"><span class="nav-number">4.1.1.</span> <span class="nav-text">1. 基本变量设置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-line-joining"><span class="nav-number">4.1.2.</span> <span class="nav-text">2. Line Joining</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-%E5%8F%98%E9%87%8F%E5%90%8D%E5%B1%95%E5%BC%80"><span class="nav-number">4.1.3.</span> <span class="nav-text">3. 变量名展开</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-%E5%8F%98%E9%87%8F%E7%9A%84%E5%85%B6%E4%BB%96%E8%B5%8B%E5%80%BC%E6%96%B9%E5%BC%8F"><span class="nav-number">4.1.4.</span> <span class="nav-text">4. 变量的其他赋值方式</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%85%B1%E4%BA%AB%E5%8A%9F%E8%83%BD"><span class="nav-number">4.2.</span> <span class="nav-text">共享功能</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#functions"><span class="nav-number">4.3.</span> <span class="nav-text">Functions</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#tasks"><span class="nav-number">4.4.</span> <span class="nav-text">Tasks</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#5-how-to-add-the-layer-and-recipe"><span class="nav-number">5.</span> <span class="nav-text">5. How to add the layer and recipe</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%89%8B%E5%8A%A8%E6%B7%BB%E5%8A%A0%E7%AC%AC%E4%B8%89%E6%96%B9-meta-layer"><span class="nav-number">5.1.</span> <span class="nav-text">手动添加第三方 meta layer</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%87%AA%E5%8A%A8%E6%B7%BB%E5%8A%A0%E7%AC%AC%E4%B8%89%E6%96%B9-meta-layer"><span class="nav-number">5.2.</span> <span class="nav-text">自动添加第三方 meta layer</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%88%9B%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84layer"><span class="nav-number">5.3.</span> <span class="nav-text">创建自己的layer</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC%E4%B8%80%E4%B8%AArecipe"><span class="nav-number">5.4.</span> <span class="nav-text">第一个recipe</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#makefile-%E6%96%B9%E5%BC%8F"><span class="nav-number">5.4.1.</span> <span class="nav-text">Makefile 方式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#autotools-%E6%96%B9%E5%BC%8F"><span class="nav-number">5.4.2.</span> <span class="nav-text">Autotools 方式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#cmake%E6%96%B9%E5%BC%8F"><span class="nav-number">5.4.3.</span> <span class="nav-text">Cmake方式</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#6-yocto%E5%85%B6%E4%BB%96%E5%B7%A5%E5%85%B7"><span class="nav-number">6.</span> <span class="nav-text">6. yocto其他工具</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#7-%E5%B8%B8%E8%A7%81%E7%94%A8%E6%B3%95"><span class="nav-number">7.</span> <span class="nav-text">7. 常见用法</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-%E7%BC%96%E8%AF%91%E5%8D%95%E4%B8%AAbb%E6%96%87%E4%BB%B6"><span class="nav-number">7.1.</span> <span class="nav-text">1. 编译单个bb文件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-%E6%89%A7%E8%A1%8C%E4%BB%BB%E5%8A%A1"><span class="nav-number">7.2.</span> <span class="nav-text">2. 执行任务</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-%E7%94%9F%E6%88%90%E4%BE%9D%E8%B5%96%E5%85%B3%E7%B3%BB"><span class="nav-number">7.3.</span> <span class="nav-text">3. 生成依赖关系</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-%E6%9F%A5%E7%9C%8B%E5%8F%98%E9%87%8F%E7%9A%84%E5%AE%9E%E9%99%85%E5%80%BC"><span class="nav-number">7.4.</span> <span class="nav-text">4. 查看变量的实际值</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-%E6%8F%90%E5%8D%87function%E4%B8%BAtask"><span class="nav-number">7.5.</span> <span class="nav-text">5. 提升Function为Task</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#6-%E5%BC%BA%E5%88%B6%E6%89%A7%E8%A1%8Ctask"><span class="nav-number">7.6.</span> <span class="nav-text">6. 强制执行Task</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#7-%E5%AE%98%E6%96%B9-qa-error-and-waring-messages"><span class="nav-number">7.7.</span> <span class="nav-text">7. 官方 QA Error and Waring Messages</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -3030,59 +1987,6 @@ Makefile.am:<figure class="highlight plain"><table><tr><td class="gutter"><pre><
   
 
   
-      
-
-<script>
-  if (typeof MathJax === 'undefined') {
-    window.MathJax = {
-      loader: {
-        source: {
-          '[tex]/amsCd': '[tex]/amscd',
-          '[tex]/AMScd': '[tex]/amscd'
-        }
-      },
-      tex: {
-        inlineMath: {'[+]': [['$', '$']]},
-        tags: 'ams'
-      },
-      options: {
-        renderActions: {
-          findScript: [10, doc => {
-            document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
-              const display = !!node.type.match(/; *mode=display/);
-              const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
-              const text = document.createTextNode('');
-              node.parentNode.replaceChild(text, node);
-              math.start = {node: text, delim: '', n: 0};
-              math.end = {node: text, delim: '', n: 0};
-              doc.math.push(math);
-            });
-          }, '', false],
-          insertedScript: [200, () => {
-            document.querySelectorAll('mjx-container').forEach(node => {
-              let target = node.parentNode;
-              if (target.nodeName.toLowerCase() === 'li') {
-                target.parentNode.classList.add('has-jax');
-              }
-            });
-          }, '', false]
-        }
-      }
-    };
-    (function () {
-      var script = document.createElement('script');
-      script.src = '//cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js';
-      script.defer = true;
-      document.head.appendChild(script);
-    })();
-  } else {
-    MathJax.startup.document.state(0);
-    MathJax.texReset();
-    MathJax.typeset();
-  }
-</script>
-
-    
 
   
 
